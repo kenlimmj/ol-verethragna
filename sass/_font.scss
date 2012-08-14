@@ -1,0 +1,80 @@
+@import "compass/css3/font-face";
+$cmunotipath: "cmunoti-webfont" !default;
+@include font-face("cmun", font-files(
+        "#{$cmunotipath}.woff", woff,
+        "#{$cmunotipath}.ttf", truetype,
+        "#{$cmunotipath}.svg#cmunoti", svg),
+        '#{$cmunotipath}.eot',
+    400,
+    italic);
+$cmunormpath: "cmunorm-webfont" !default;
+@include font-face("cmun", font-files(
+        "#{$cmunormpath}.woff", woff,
+        "#{$cmunormpath}.ttf", truetype,
+        "#{$cmunormpath}.svg#cmunorm", svg),
+        '#{$cmunormpath}.eot',
+    400,
+    normal);
+$cmunobxpath: "cmunobx-webfont" !default;
+@include font-face("cmun", font-files(
+        "#{$cmunobxpath}.woff", woff,
+        "#{$cmunobxpath}.ttf", truetype,
+        "#{$cmunobxpath}.svg#cmunobx", svg),
+        '#{$cmunobxpath}.eot',
+    700,
+    normal);
+$misoregpath: "miso-regular-webfont" !default;
+@include font-face("miso", font-files(
+        "#{$misoregpath}.woff", woff,
+        "#{$misoregpath}.ttf", truetype,
+        "#{$misoregpath}.svg#misoregular", svg),
+        '#{$misoregpath}.eot',
+    400,
+    normal);
+$misolightpath: "miso-light-webfont" !default;
+@include font-face("miso", font-files(
+        "#{$misolightpath}.woff", woff,
+        "#{$misolightpath}.ttf", truetype,
+        "#{$misolightpath}.svg#misolight", svg),
+        '#{$misolightpath}.eot',
+    100,
+    normal);
+$misoboldpath: "miso-bold-webfont" !default;
+@include font-face("miso", font-files(
+        "#{$misoboldpath}.woff", woff,
+        "#{$misoboldpath}.ttf", truetype,
+        "#{$misoboldpath}.svg#misobold", svg),
+        '#{$misoboldpath}.eot',
+    700,
+    normal);
+$insigniapath: "insignia-webfont" !default;
+@include font-face("insignia", font-files(
+        "#{$insigniapath}.woff", woff,
+        "#{$insigniapath}.ttf", truetype,
+        "#{$insigniapath}.svg#insignia", svg),
+        '#{$insigniapath}.eot',
+    400,
+    normal);
+$fontelloPath: "fontello" !default;
+@include font-face("fontello", font-files(
+        "#{$fontelloPath}.woff", woff,
+        "#{$fontelloPath}.ttf", truetype,
+        "#{$fontelloPath}.svg#fontello", svg),
+        '#{$fontelloPath}.eot',
+    400,
+    normal);
+.cmun {
+    font-family: "cmun";
+    display: inline-block;
+    text-decoration: inherit;
+}
+.miso {
+    font-family: "miso";
+    display: inline-block;
+    text-decoration: inherit;
+}
+.helvetica {
+    font-family: "Helvetica Neue", "Helvetica";
+    display: inline-block;
+    text-decoration: inherit;
+}

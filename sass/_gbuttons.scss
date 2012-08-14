@@ -1,0 +1,52 @@
+button.gray, a.gray, input[type=submit].gray {
+    padding: 10px 10px;
+    -webkit-border-radius: 2px 2px;
+    border: solid 1px #dadada;
+    background: #f4f4f4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f4f4f4 0%, #f1f1f1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f4f4f4 0%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f4f4f4 0%,#f1f1f1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f4f4f4 0%,#f1f1f1 100%); /* IE10+ */
+    background: linear-gradient(top,  #f4f4f4 0%,#f1f1f1 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-family: "miso","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    text-shadow: 0px 1px 1px rgba(255,255,255,1);
+    line-height: 1;
+    font-size: 1em;
+}
+.gray:hover { 
+    border:1px solid #c6c6c4; 
+    background: #f8f8f8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f8f8f8 0%, #f1f1f1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f8f8f8 0%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f8f8f8 0%,#f1f1f1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f8f8f8 0%,#f1f1f1 100%); /* IE10+ */
+    background: linear-gradient(top,  #f8f8f8 0%,#f1f1f1 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+    color: #222; 
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(10, 10, 10, 0.4);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(10, 10, 10, 0.4);
+    box-shadow: 0px 1px 1px 0px rgba(10, 10, 10, 0.4);
+}    
+.gray:active { 
+    border:1px solid #c6c6c4; 
+    color: #222;
+    -webkit-box-shadow: inset 0 0 2px 4px #f1f1f1, 0 1px 0 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 2px 4px #f1f1f1, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 2px 4px #f1f1f1, 0 1px 0 0 #eeeeee;
+}
+button.scaled, a.scaled, input.scaled  {
+    -webkit-transform: scale(2); 
+    -webkit-transform-origin: bottom left;
+}
+button.large, a.large, input.large {
+    padding: 12px 20px; 
+    font-size: 1.2em; 
+}
