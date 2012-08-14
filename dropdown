@@ -1,0 +1,9 @@
+<li><label for="dropdown">Sciences</label></li>
+<li><a href="#" title="Chemistry">Chemistry</a></li>
+<li><a href="#" title="Physics">Physics</a></li>
+<li><a href="#" title="Biology">Biology</a></li>
+<li class="divider"></li>
+<li><label for="dropdown">Humanities</label></li>
+<li><a href="#" title="Economics">Economics</a></li>
+<li><a href="#" title="History">History</a></li>
+<li><a href="#" title="Literature">Literature</a></li>
