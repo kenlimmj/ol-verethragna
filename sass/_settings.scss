@@ -1,0 +1,62 @@
+@import "foundation/functions/modular-scale";
+
+// Settings file containing Foundation default Grid Settings
+$rowWidth: 1000px;
+$columnGutter: 30px;
+$totalColumns: 12;
+$mobileTotalColumns: 4;
+
+// Colors Settings
+$mainColor: #339999;
+$secondaryColor: #FF6B6B;
+$alertColor: #C44D58;
+$successColor: #C7F464;
+$txtColor: #404040;
+$highlightColor: #ffff99;
+$black: #000;
+$white: #fff;
+$shinyEdge: rgba(#fff, .5);
+$darkEdge: rgba(#000, .2);
+
+// Typography Settings
+$headerFontFamily: "miso","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$headerFontWeight: normal;
+$headerFontColor: #404040;
+$bodyFontFamily: "cmun","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$bodyFontWeight: normal;
+$bodyFontColor: #404040;
+
+// Button Settings
+$buttonRadius: 3px;
+$btnBase: 10px;$tinyBtnBase: $btnBase - 5;
+$smallBtnBase: $btnBase - 3;
+$largeBtnBase: $btnBase + 5;
+
+// Form Settings
+$formSpacing: 12px;
+
+// Tab Settings
+$tabHeight: 40px;
+
+// Nav Bar Settings
+$topbarColor: #fff;
+$topbarHighlight: #fff;
+$navBarHeight: 40px;
+$navFlyoutBaseWidth: 250px;
+
+//Modular Scale
+$ratio: $golden;
+$base-size: 24px 44px;
+
+// Custom Classes
+.justify {text-align:justify !important;}
+.alignright {text-align:right !important;}
+.aligncenter {text-align:center !important;}
+.shrink {font-size:80%; line-height:inherit;}
+.pushdown5 {padding-top:10px;}
+.pushdown10 {padding-top:$navBarHeight+10px;}
+.pushdown30 {padding-top:$navBarHeight+30px;}
+.margintop10 {margin-top:10px !important;}
+.margintop0 {margin-top:0px !important;}
+.marginbot0 {margin-bottom:0px !important;}
+.youtube {padding-bottom:56.75% !important; padding-top:0px !important;}
