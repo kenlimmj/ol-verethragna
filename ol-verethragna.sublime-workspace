@@ -71,9 +71,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 357.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"package",
 				"Package Control: Remove Package"
@@ -143,10 +147,6 @@
 				"Set Syntax: JavaScript"
 			],
 			[
-				"java",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"mark",
 				"Set Syntax: Markdown"
 			],
@@ -201,29 +201,34 @@
 	"file_history":
 	[
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson.html",
+		"/Volumes/Git 1.7.11.3 Snow Leopard Intel Universal/setup git PATH for non-terminal programs.sh",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/foundation.min.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/app.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/ddslick.min.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/release.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_settings.scss",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/wysihtml5/src/dom/remove_empty_text_nodes.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/app.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/script.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_schedule.scss",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/offcanvas.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/offcanvas.min.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/plugins.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_offcanvas.scss",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson2.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/dropdown",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/app.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/jquery.foundation.buttons.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/foundation.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/jquery.foundation.navigation.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/jquery.foundation.topbar.js",
 		"/Users/kenlimmj/Downloads/offcanvas/offcanvas-1.html",
 		"/Users/kenlimmj/Downloads/offcanvas/offcanvas-4.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/offcanvas.js",
 		"/Users/kenlimmj/Downloads/offcanvas/js/jquery.offcanvas.js",
 		"/Users/kenlimmj/Downloads/offcanvas/css/offcanvas.css",
 		"/Users/kenlimmj/Downloads/offcanvas/scss/offcanvas.scss",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/app.scss",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_offcanvas.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/release.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_schedule.scss",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/schedule.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/script.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/hyphenator.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/plugins.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/modernizr.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/tabletop.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/plugins.js",
@@ -291,7 +296,6 @@
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/docs/includes/_documentation_head.php",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/includes/_header.php",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/docs/includes/_documentation_foot.php",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/app.css",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/docs/presentation.js",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/docs/navigation.php",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_presentation.scss",
@@ -323,11 +327,7 @@
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/scss/foundation.scss",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/scss/foundation/functions/_all.scss",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/Kerning JS/README.md",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/typeset/examples/article/index.html",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/typeset/README.md",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/index.php",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/whats-new.php",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/marketing/swipe.js"
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/typeset/examples/article/index.html"
 	],
 	"find":
 	{

@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
 <head>
-	<title>{Lesson_Title} | openlectures</title>
+	<title>{{Lesson_Title}} | openlectures</title>
 	<!-- universal meta -->
 	<meta charset="utf-8">
 	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
@@ -26,131 +26,112 @@
 	<!-- default facebook meta -->
 	<meta property="og:site_name" content="openlectures">
 	<meta property="og:url" content="{canonical_url}">
-	<meta property="og:title" content="{Page_Title}">
+	<meta property="og:title" content="{{Page_Title}}">
 	<meta property="fb:app_id" content="238184899560410">
-	<meta property="og:email" content="hello@openlectures.org"/>
+	<meta property="og:email" content="hello@openlectures.org">
 	<!-- end default facebook meta -->
 
 	<!-- lesson facebook meta -->
-	<meta property="og:description" content="{checkpoint_description}">
-	<meta property="og:image" content="{video_thumbnail_url}">
+	<meta property="og:description" content="{{checkpoint_description}}">
+	<meta property="og:image" content="{{video_thumbnail_url}}">
 	<meta property="og:type" content="video">
-	<meta property="og:video" content="{video_url}">
+	<meta property="og:video" content="{{video_url}}">
 	<!-- end lesson meta -->
 
 	<!-- icons and humans.txt -->
 	<link rel="dns-prefetch" href="//youtube.com">
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png" />
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-	<link rel="fluid-icon" href="/apple-touch-icon-144x144-precomposed.png" title="openlectures" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="fluid-icon" href="/apple-touch-icon-144x144-precomposed.png" title="openlectures">
 	<link rel="author" type="text/plain" href="humans.txt">
 	<!-- end icons and humans.txt -->
 
 	<!-- load CSS -->
-	<link href="css/app.css" rel="stylesheet" media="screen,projector,print" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen,projector,print" type="text/css">
 	<!-- <link href="css/holmes.min.css" rel="stylesheet" media="screen,projector,print" type="text/css"> -->
 	<script src="js/modernizr.min.js" type="text/javascript"></script>
 	<!-- end CSS -->
 </head>
-
-<body class="holmes-debug off-canvas hide-extras">
-<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-<div class="container">
-<nav id="topMenu" role="navigation" class="twelve columns">
-	<ul id="nav" class="side-nav miso">
-		<li><a href="#" title="Home"><i class="icon-home"></i> Home</a></li>
-		<li><a href="#"><i class="icon-layers"></i> Subjects</a></li>
-		<li><a href="#" data-reveal-id="error" data-animation="fade" title="Report Error"><i class="icon-attention-sign"></i> Report Error</a></li>
-		<li><a href="#" data-reveal-id="login" data-animation="fade" title="Sign In"><i class="icon-login"></i> Log In</a></li>
-	</ul>
-</nav>
-<header id="header" class="row">	
-<div class="twelve columns">
-<nav id="menu" role="navigation" class="hide-for-small">
-<ul id="mainNav" class="link-list " style="float:left;">
-<li><a href="#" title="Home"><i class="icon-home"></i></a></li>
-<li><a href="#"><i class="icon-layers"></i> <i class="icon-down-open"></i></a></li>
-</ul><!--mainNav"-->
-<ul class="link-list" style="float:right;">
-<li><a href="#" data-reveal-id="error" data-animation="fade" title="Report Error"><i class="icon-attention-sign"></i></a></li>
-<li><a href="#" data-reveal-id="login" data-animation="fade" title="Sign In"><i class="icon-login"></i></a></li>
-</ul><!--subNav-->
-</nav>
-<div class="panel show-for-small">
-<ul class="side-nav miso aligncenter" style="padding:0;">
-	<li><a class="menu-button" id="menuButton" href="#menu">Menu</a></li>
-	<li class="divider"></li>
-	<li class="marginbot0"><a class="sidebar-button" id="sidebarButton" href="#sidebar">Show Checkpoints</a></li>
-</ul><!--link-list-->
-</div><!--12col-->
-</header>
-<div class="row">	
-	<section role="main">
-	<div class="row">
-	<div class="twelve columns pushdown10">
-		<div class="flex-video youtube">
-			<iframe src="http://www.youtube.com/embed/_90yHk_D5X8?rel=0&amp;theme=light&amp;color=white&amp;autoplay=0&amp;showinfo=0&amp;autohide=3&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
-		</div><!--flexvideo-->
-		<h1 class="responsive-text">Visualizing Demand</h1>
-	</div><!--12col-->
-	<div class="seven columns pull-mobile-one">
-		<h4 class="subheader prettify hyphenate justify">The demand curve -- a locus of points describing the relationship between price and quantity.<br/><small>by <a href="#" title="Linan Qiu"><strong>Linan Qiu</strong></a></small></h4>
-		<p class="hyphenate prettify justify">Let's not start from the abstract. Instead, let's use a simple example to illustrate the origins of the demand curve.</p>
-		<ul class="link-list">
-			<li><small><a href="#header" title="Back to Video"><i class="icon-up-open"></i> Back to video</a></small></li>
-			<li><small><a href="#" title="Tweet"><i class="icon-twitter-bird"></i> Tweet</a></small></li>
-			<li><small><a href="#" title="Share on Facebook"><i class="icon-facebook"></i> Share on Facebook</a></small></li>
-			<li><small><a href="#" title="Watch on YouTube"><i class="icon-youtube"></i> Watch on YouTube</a></small></li>
-		</ul>
-	</div><!--7col-->
-	<div class="four columns offset-by-one miso">
-		<ul class="link-list show-for-small">
-			<li><a href="#" title="Previous Lesson"><i class="icon-left-open"></i> Previous</a></li>
-			<li><a class="sidebar-button" id="sidebarButton" href="#sidebar" title="Browse Lessons"><i class="icon-list-space"></i> Lessons</a></li>
-			<li><a href="#" title="Next Lesson"><i class="icon-right-open"></i> Next</a></li>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand insignia" href="#">ol</a>
+			<ul class="nav">
+			  <li class="dropdown">
+			    <a href="#" class="dropdown-toggle" role="menu" data-toggle="dropdown">Subjects <i class="icon-chevron-down"></i></a>
+			    <ul class="dropdown-menu">
+			    	<li class="nav-header">Sciences</li>
+					<li><a href="#" title="Chemistry">Chemistry</a></li>
+					<li><a href="#" title="Physics">Physics</a></li>
+					<li><a href="#" title="Biology">Biology</a></li>
+					<li class="nav-header">Humanities</li>
+					<li><a href="#" title="Economics">Economics</a></li>
+					<li><a href="#" title="History">History</a></li>
+					<li><a href="#" title="Literature">Literature</a></li>
+			    </ul>
+			  </li>
+			  <li class="divider-vertical"></li>
 			</ul>
-			<ul class="side-nav hide-for-small">
-			<li><a href="#" title="Next Lesson"><i class="icon-right-open"></i> Next</a></li>
-			<li><a href="#" data-reveal-id="question" data-animation="fade" title="Question"><i class="icon-help"></i> Not sure if you should proceed?</a></li>
-			<li><a href="#" title="Previous Lesson"><i class="icon-left-open"></i> Previous</a></li>
-			<li class="divider"></li>
-			<li class="active"><a href="#">1. Visualizing Demand</a></li>
-			<li><a href="#">2. Connecting The Dots</a></li>
-			<li><a href="#">3. Consumer Surplus</a></li>
-			<li><a href="#">4. Demand vs. Quantity Demanded</a></li>
-			<li class="divider"></li>
-			<li><a href="#" title="Browse Lessons"><i class="icon-list-space"></i> Browse Lessons</a></li>
+			<p class="navbar-text hidden-phone" style="display:inline-block;"><span class="hidden-tablet">E / PD / </span>Applications of Price Discrimination</p>
+		<ul class="nav pull-right">
+			<li class="divider-vertical"></li>
+			<li><a href="#"><i class="icon-warning-sign"></i><span class="hidden-phone hidden-tablet"> Report Error</span></a></li>
+			<li><a href="#"><i class="icon-signin"></i><span class="hidden-phone hidden-tablet"> Sign In</span></a></li>
 		</ul>
-	</div><!--4col-->
+      </div>
 	</div>
-	</section>
-
-	<section id="sidebar" role="complementary">
-	<nav id="sideMenu" role="navigation">
-	<ul id="sideMainNav" class="side-nav miso">
-		<li><a href="#" title="Next Lesson"><i class="icon-right-open"></i> Next</a></li>
-		<li><a href="#" data-reveal-id="question" data-animation="fade" title="Question"><i class="icon-help"></i> Not sure if you should proceed?</a></li>
-		<li><a href="#" title="Previous Lesson"><i class="icon-left-open"></i> Previous</a></li>
-		<li class="divider"></li>
-		<li class="active"><a href="#">1. Visualizing Demand</a></li>
-		<li><a href="#">2. Connecting The Dots</a></li>
-		<li><a href="#">3. Consumer Surplus</a></li>
-		<li><a href="#">4. Demand vs. Quantity Demanded</a></li>
-		<li class="divider"></li>
-		<li><a href="#" title="Browse Lessons"><i class="icon-list-space"></i> Browse Lessons</a></li>
-	</ul><!--navbar-->
-	</nav><!--sidemenu-->
-	</section><!--sidebar-->
 </div>
+<body class="holmes-debug">
+<div class="container" style="padding-top:60px;">
+	<!--[if lt IE 7]>
+	<div class="alert alert-block">
+	<button type="button" class="close" data-dismiss="alert"><i class="icon-remove"></i></button>
+	<strong>WARNING!</strong> Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to use all features on this site.</p>
+	<![endif]-->
+	<div class="row-fluid">
+		<div class="span12 aligncenter">
+		<h1 class="marginbot0 title">Coffee, Price Discrimination and Fair Trade</h1>
+		<p class="lead" style="line-height:10px;"><a href="#video">watch lecture</a> | <a href="#description">skip to description</a></p>
+		</div><!--span8-->
+	</div><!--row-->
+	<div class="row-fluid" id="video">
+		<div class="span12">
+		<iframe src="http://www.youtube.com/embed/_90yHk_D5X8?rel=0&amp;theme=light&amp;color=white&amp;autoplay=0&amp;showinfo=0&amp;autohide=3&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
+		</div><!--12col-->
+	</div><!--row-->
 
-<footer class="site-footer row" role="contentinfo">
-<hr>
-<div class="twelve miso">
-	<ul class="link-list">
+<div class="row-fluid padtop40">
+	<div class="span7">
+	<h6>by <a href="">Lydia Liu</a></h6>
+	<h4 class="hyphenate prettify alignjustify" id="description">Are you still with me? If you are, great! If you are not, it’s time for some coffee...</h4>
+	<ul class="ul-horizontal lead">
+		<li><a href="#header" title="Back to Video"><i class="icon-chevron-up"></i> Back to video</a></li>
+		<li><a href="#" title="Tweet"><i class="icon-twitter"></i> Tweet</a></li>
+		<li><a href="#" title="Share on Facebook"><i class="icon-facebook"></i> Share</a></li>
+	</ul>
+	</div><!--6col-->
+	<div class="span4 offset1">
+	<ul class="nav nav-tabs nav-stacked lead">
+		<li><a href="#" title="Next Lesson"><i class="icon-chevron-right pull-right"></i> Next</a></li>
+		<li><a href="#" data-reveal-id="question" data-animation="fade" title="Question"><i class="icon-question-sign pull-right"></i> Not sure?</a></li>
+		<li><a href="#" title="Previous Lesson"><i class="icon-chevron-left pull-right"></i> Previous</a></li>
+		<li><a href="#">Costs</a></li>
+		<li><a href="#">Benefits</a></li>
+		<li class="active"><a href="#">Coffee, Price Discrimination and Fair Trade</a></li>
+		<li><a href="#" title="Browse Lessons"><i class="icon-list pull-right"></i> Browse Lessons</a></li>
+	</ul><!--navbar-->
+	</div><!--4col-->
+</div><!--row-->
+</div><!--container-->
+<footer>
+<div class="container" id="footer">
+<div class="row">
+<div class="span12">
+	<ul class="ul-horizontal padtop20 marginbot0">
 		<li><a href="/about-us" title="About Us">About Us</a></li>
 		<li><a href="/opportunities" title="Opportunities">Opportunities</a></li>
 		<li><a href="/faq" title="FAQ">FAQ</a></li>
@@ -159,26 +140,11 @@
 		<li><a href="/terms" title="Terms">Terms</a></li>
 		<li><a href="/privacy" title="Privacy">Privacy</a></li>
 	</ul>
-</div><!--12col-->	
-</footer>         		
+	<p class="lead" style="line-height:30px;">openlectures is designed and built in a small room on the sunny island of Singapore.</p>
+</div><!--12col-->	  
+</div><!--row-->  		
 </div><!--container-->
-
-<div id="error" class="reveal-modal">
-	<h3><i class="icon-attention"></i> Report Error</h3>
-	<label class="miso">Email Address</label>
-	<input type="email" placeholder="e.g. cookie_monster@gmail.com" />
-	<label class="miso">The Problem</label>
-	<textarea class="twelve" rows="12" placeholder="Ok, we screwed up. Give us something to work with? We'll give the lecturer a big 'T' for 'Troll' and get back to you pronto!" style="resize:none"></textarea>
-	<input type="submit" class="gray large" value="*Whack*">
-	<a class="close-reveal-modal" title="Close Modal"><i class="icon-cancel margintop10"></i></a>
-</div><!--error-->
-
-<div id="question" class="reveal-modal">
-	<h3><i class="icon-help"></i> Question</h3>
-	<p>Answer</p>
-	<a class="close-reveal-modal" title="Close Modal"><i class="icon-cancel margintop10"></i></a>
-</div><!--question-->
-
+</footer>
 <!-- load scripts via Modernizr.Load -->
 <script>
 Modernizr.load([
@@ -196,20 +162,24 @@ Modernizr.load([
   },
   {
 	load : [
-		'js/foundation/foundation.min.js',
-		'js/fittext.min.js',
 		'js/smoothscroll.min.js',
 		'js/hyphenator.min.js',
 		'js/jsprettify.min.js',
-		'js/offcanvas.min.js',
+		'js/jquery.fitvids.js',
+		'js/bootstrap-dropdown.js',
+		'js/fittext.min.js',
+		'js/bootstrap-alert.js'
 	],
 	complete: function () {
-		Modernizr.load('js/app.min.js');
 		Hyphenator.config({
                 useCSS3hyphenation: true
         });
         Hyphenator.run();
         window.jsprettify.prettify();
+        $(".container").fitVids();
+        $('a').smoothScroll({offset: -60});
+        $('.title').fitText(1.5);
+        $('#description').fitText(1.5);
 	}
   }
 ]);
