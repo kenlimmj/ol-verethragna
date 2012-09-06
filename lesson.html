@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
 <head>
-	<title>{{Lesson_Title}} | openlectures</title>
+	<title>Applications of Price Discrimination | openlectures</title>
 	<!-- universal meta -->
 	<meta charset="utf-8">
 	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
@@ -26,7 +26,7 @@
 	<!-- default facebook meta -->
 	<meta property="og:site_name" content="openlectures">
 	<meta property="og:url" content="{canonical_url}">
-	<meta property="og:title" content="{{Page_Title}}">
+	<meta property="og:title" content="Applications of Price Discrimination">
 	<meta property="fb:app_id" content="238184899560410">
 	<meta property="og:email" content="hello@openlectures.org">
 	<!-- end default facebook meta -->
@@ -52,29 +52,57 @@
 
 	<!-- load CSS -->
 	<link href="css/bootstrap.css" rel="stylesheet" media="screen,projector,print" type="text/css">
+	<link href="css/meny.css" rel="stylesheet" media="screen,projector,print" type="text/css">
 	<!-- <link href="css/holmes.min.css" rel="stylesheet" media="screen,projector,print" type="text/css"> -->
 	<script src="js/modernizr.min.js" type="text/javascript"></script>
 	<!-- end CSS -->
 </head>
 <body class="holmes-debug">
+<div class="meny">
+	<p class="marginbot0"><small>Applications of Price Discrimination</small></p>
+	<h2 class="margintop0">Checkpoints</h2>
+	<ol>
+		<li><a href="#1" title="Costs">Costs</a></li>
+		<li><a href="#2" title="Benefits">Benefits</a></li>
+		<li><a href="#3" title="Fair Trade Coffee">Fair Trade Coffee</a></li>
+	</ol>
+	<a href="#summary" title="Summary"	>Summary</a>
+</div><!--meny-->
+<div class="meny-arrow"><i class="icon-caret-right icon-large green"></i></div>
+<div class="meny-contents">
 <div class="container">
+	<!-- <div class="cover"></div> -->
 	<!--[if lt IE 7]>
 	<div class="alert alert-block">
 	<button type="button" class="close" data-dismiss="alert"><i class="icon-remove"></i></button>
 	<strong>WARNING!</strong> Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to use all features on this site.</p>
 	<![endif]-->
-	<div class="row marginbot40p">
+	<div class="row marginbot40p" id="intro">
 		<div class="span12">
-		<p class="lead marginbot0"><a href=""><i class="icon-circle-arrow-left"></i> Back to Lessons</a></p>
+		<p class="lead marginbot0"><a href="{{link}}" title="Back to Lessons"><i class="icon-circle-arrow-left line"></i> Back to Lessons</a></p>
 		<h1 class="padtop0">Applications of Price Discrimination</h1>
-		<p><small>by</small> <a href="">Lydia Liu</a></p>
-		<h1 class="marginbot0"><a href="#1"><i class="icon-circle-arrow-right muted"></i> <small>Already got skillz? Next lesson!</small></a></h1>
-		<h1 class="margintop0"><a href="#1"><i class="icon-circle-arrow-down green"></i> <small>Start Rockin' - Click, or scroll down.</small></a></h1>
+		<p><small>by</small> <a href="{{link}}" title="Author: Lydia Liu">Lydia Liu</a></p>
+		<h1 class="marginbot0">
+			<a href="#summary" title="Skip to Summary">
+				<i class="icon-circle-arrow-right muted line0"></i>
+				<small> Already got skillz? Skip to Summary!</small>
+			</a>
+		</h1>
+		<h1 class="margintop0">
+			<a href="#1" title="Start">
+				<i class="icon-circle-arrow-down green line0"></i>
+				<small> Start Rockin' - Click, or scroll down.</small>
+			</a>
+		</h1>
 		</div><!--12col-->
 	</div><!--row-->
 	<div class="row margintop20p marginbot20p" id="1">
 	<div class="span12 hidden-phone">
-		<h1><a href="" data-placement="right" rel="tooltip" href="#" data-original-title="Previous Lesson"><i class="icon-circle-arrow-left icon-large muted"></i></a></h1>
+		<h1>
+			<a data-placement="right" rel="tooltip" href="#intro" data-original-title="Back to Introduction" title="Back to Introduction">
+				<i class="icon-circle-arrow-up icon-large muted"></i>
+			</a>
+		</h1>
 	</div><!--12col-->
 	<div class="span4">
 		<h2 class="navtitle">Costs</h2>
@@ -84,12 +112,27 @@
 		<iframe src="http://www.youtube.com/embed/GKQR2brSduo?rel=0&amp;theme=light&amp;color=white&amp;autoplay=0&amp;showinfo=0&amp;autohide=3&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
 	</div><!--8col-->
 	<div class="span12 hidden-phone">
-		<h1><a href="#2" data-placement="bottom" rel="tooltip" data-original-title="Next Checkpoint"><i class="icon-circle-arrow-down icon-large muted"></i></a> <a href="" data-placement="bottom" rel="tooltip" data-original-title="Checkpoint Question"><i class="icon-question-sign muted"></i></a> <a href="" data-placement="bottom" rel="tooltip" data-original-title="Report Error"><i class="icon-exclamation-sign muted"></i></a></h1>
+		<h1>
+			<a href="#2" data-placement="bottom" rel="tooltip" data-original-title="Next Checkpoint" title="Next Lesson">
+				<i class="icon-circle-arrow-down icon-large muted"></i>
+			</a> 
+			<a data-toggle="modal" href="#question1" data-placement="bottom" rel="tooltip" data-original-title="Feeling Confused?" title="Feeling Confused?">
+				<i class="icon-question-sign muted"></i>
+			</a> 
+			<a href="" data-placement="bottom" rel="tooltip" data-original-title="Report Error" title="Report Error">
+				<i class="icon-exclamation-sign muted"></i>
+			</a>
+		</h1>
 	</div><!--12col-->
 	</div><!--row-->
 	<div class="row margintop20p marginbot20p" id="2">
 	<div class="span12 hidden-phone">
-		<h1><a href="#1" data-placement="right" rel="tooltip" data-original-title="Previous Checkpoint"><i class="icon-circle-arrow-up icon-large muted"></i></a></h1>
+		<h1>
+			<a href="#1" data-placement="bottom" rel="tooltip" data-original-title="Previous Checkpoint" title="Previous Checkpoint">
+				<i class="icon-circle-arrow-up icon-large muted"></i>
+			</a>
+			<small> or <a href="#intro" title="Back to Introduction">back to top</a></small>
+		</h1>
 	</div><!--12col-->
 	<div class="span4">
 		<h2 class="navtitle">Benefits</h2>
@@ -99,12 +142,27 @@
 		<iframe src="http://www.youtube.com/embed/MRocUa77KPw?rel=0&amp;theme=light&amp;color=white&amp;autoplay=0&amp;showinfo=0&amp;autohide=3&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
 	</div><!--8col-->
 	<div class="span12 hidden-phone">
-		<h1><a href="#3" data-placement="bottom" rel="tooltip" data-original-title="Next Lesson"><i class="icon-circle-arrow-down icon-large muted"></i></a> <a href="" data-placement="bottom" rel="tooltip" data-original-title="Checkpoint Question"><i class="icon-question-sign muted"></i></a> <a href="" data-placement="bottom" rel="tooltip" data-original-title="Report Error"><i class="icon-exclamation-sign muted"></i></a></h1>
+		<h1>
+			<a href="#3" data-placement="bottom" rel="tooltip" data-original-title="Next Lesson" title="Next Lesson">
+				<i class="icon-circle-arrow-down icon-large muted"></i>
+			</a> 
+			<a data-toggle="modal" href="#question2" data-placement="bottom" rel="tooltip" data-original-title="Feeling Confused?" title="Feeling Confused?">
+				<i class="icon-question-sign muted"></i>
+			</a> 
+			<a href="" data-placement="bottom" rel="tooltip" data-original-title="Report Error" title="Report Error">
+				<i class="icon-exclamation-sign muted"></i>
+			</a>
+		</h1>
 	</div><!--12col-->
 	</div><!--row-->
 	<div class="row margintop20p marginbot10p" id="3">
 	<div class="span12 hidden-phone">
-		<h1><a href="#2" data-placement="right" rel="tooltip" data-original-title="Previous Checkpoint"><i class="icon-circle-arrow-up icon-large muted"></i></a></h1>
+		<h1>
+			<a href="#2" data-placement="bottom" rel="tooltip" data-original-title="Previous Checkpoint" title="Previous Checkpoint">
+				<i class="icon-circle-arrow-up icon-large muted"></i>
+			</a>
+			<small> or <a href="#intro" title="Back to Introduction">back to top</a></small>
+		</h1>
 	</div><!--12col-->
 	<div class="span4">
 		<h2 class="navtitle">Fair Trade Coffee</h2>
@@ -114,10 +172,92 @@
 		<iframe src="http://www.youtube.com/embed/_90yHk_D5X8?rel=0&amp;theme=light&amp;color=white&amp;autoplay=0&amp;showinfo=0&amp;autohide=3&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
 	</div><!--8col-->
 	<div class="span12 hidden-phone">
-		<h1><a href="" data-placement="bottom" rel="tooltip" data-original-title="Next Lesson"><i class="icon-circle-arrow-right icon-large muted"></i> <a href="" data-placement="bottom" rel="tooltip" data-original-title="Checkpoint Question"><i class="icon-question-sign muted"></i></a> <a href="" data-placement="bottom" rel="tooltip" data-original-title="Report Error"><i class="icon-exclamation-sign muted"></i></a></h1>
+		<h1>
+			<a href="#summary" data-placement="bottom" rel="tooltip" data-original-title="That's it! Go to Summary" title="Summary">
+				<i class="icon-ok-sign icon-large muted"></i>
+			</a> 
+			<a data-toggle="modal" href="#question3" data-placement="bottom" rel="tooltip" data-original-title="Feeling Confused?" title="Feeling Confused?">
+				<i class="icon-question-sign muted"></i>
+			</a> 
+			<a href="" data-placement="bottom" rel="tooltip" data-original-title="Report Error" title="Report Error">
+				<i class="icon-exclamation-sign muted"></i>
+			</a>
+		</h1>
 	</div><!--12col-->
 	</div><!--row-->
+	<div class="row marginbot10p" id="summary">
+	<div class="span12 marginbot10p">
+		<h1 class="marginbot10p">
+			<a href="#3" data-placement="bottom" rel="tooltip" data-original-title="Previous Checkpoint" title="Previous Checkpoint">
+				<i class="icon-circle-arrow-up icon-large muted"></i>
+			</a>
+			<small> or <a href="#intro" title="Back to Introduction">back to top</a></small></h1>
+		<h2 class="prettify">Here's what you should know:</h2>
+		<ul class="icons">
+			<li><i class="icon-check"></i> Elucidate the costs of price discrimination</li>
+			<li><i class="icon-check"></i> Elucidate the benefits of price discrimination</li>
+			<li><i class="icon-check"></i> Talk about how cafes price discriminate</li>
+		</ul>
+	</div><!--span12-->
+	<div class="span8">
+		<p><small>Enjoyed this lesson? <a href="" title="Tweet"><i class="icon-twitter"></i> Tweet</a>, or <a href="" title="Share on Facebook">Share on <i class="icon-facebook"></i> Facebook</a></small></p>
+	</div><!--span8-->
+	<div class="span4">
+		<h2 class="alignright">
+			<a href="" data-placement="bottom" rel="tooltip" data-original-title="Next Lesson" title="Next Lesson">
+				<i class="icon-circle-arrow-right icon-large green"></i> Go Forth!
+			</a>
+		</h2>
+	</div><!--span4-->
+	</div><!--row-->
+	<footer>
+		<div class="row">
+		<div class="span12 aligncenter">
+			<p><span class="helvetica"><strong>open</strong>lectures</span> is designed and produced in <a href="/about" title="About Us">a small room</a> on the sunny island of Singapore</p>
+		</div><!--span12-->
+		</div><!--row-->
+	</footer>
+	<div id="question1" class="modal hide fade">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="icon-remove"></i></button>
+          <h3 id="myModalLabel">Question</h3>
+        </div>
+        <div class="modal-body">
+          <p>What is the cost of price discrimination to society?</p>
+        </div>
+        <div class="modal-footer">
+          <a class="btn">Show Hint</button>
+          <a class="btn btn-primary"  data-dismiss="modal">Close</a>
+        </div>
+	</div>
+	<div id="question2" class="modal hide fade">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="icon-remove"></i></button>
+          <h3 id="myModalLabel">Question</h3>
+        </div>
+        <div class="modal-body">
+          <p>Other than increased research and development, what is another possible benefit of price discrimination?</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn">Show Hint</button>
+          <button class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+	</div>
+	<div id="question3" class="modal hide fade">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="icon-remove"></i></button>
+          <h3 id="myModalLabel">Question</h3>
+        </div>
+        <div class="modal-body">
+          <p>Did you like this series on price discrimination? OK here’s the real question. What assumption did Starbucks make in order to price-discriminate profitably?</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-dismiss="modal">Show Hint</button>
+          <button class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+	</div>
 </div><!--container-->
+</div><!--menycontents-->
 <!-- load scripts via Modernizr.Load -->
 <script>
 Modernizr.load([
@@ -135,31 +275,23 @@ Modernizr.load([
   },
   {
 	load : [
-		'js/smoothscroll.min.js',
 		'js/jsprettify.min.js',
 		'js/jquery.fitvids.js',
-		// 'js/fittext.min.js',
 		'js/bootstrap-alert.js',
-		'js/bootstrap-tooltip.js'
+		'js/bootstrap-tooltip.js',
+		'js/bootstrap-modal.js',
+		'js/bootstrap-transition.js',
+		'js/jmetronome.min.js',
+		'js/meny.js'
 	],
 	complete: function () {
         window.jsprettify.prettify();
         $(".container").fitVids();
-        $('a').smoothScroll();
-        $('.container').tooltip({
+        $(".container").tooltip({
 			selector: "a[rel=tooltip]"
 		});
 	}
   },
-  // {
-  // 	test: Modernizr.touch,
-  // 	nope: 'js/flexible-nav.min.js',
-  // 	complete: function () {
-  // 		$(function(){
-		// 	new FlexibleNav( new FlexibleNavMaker(".navtitle").make().prependTo('body') );
-		// });
-  // 	}
-  // }
 ]);
 </script>
 <!-- end scripts -->
