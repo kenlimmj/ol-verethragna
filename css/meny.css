@@ -184,7 +184,7 @@ body {
 	background: #333;
 	color: #eee;
 }
-	.meny ul {
+	/*.meny ul {
 		margin-top: 10px;
 	}
 		.meny ul li {
@@ -196,4 +196,4 @@ body {
 				content: '-';
 				margin-right: 5px;
 				color: rgba( 255, 255, 255, 0.2 );
-			}
+			}*/
