@@ -67,38 +67,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 7045,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/ol.less",
-			"settings":
-			{
-				"buffer_size": 3452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lesson.html",
-			"settings":
-			{
-				"buffer_size": 13390,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/bootstrap.less",
-			"settings":
-			{
-				"buffer_size": 1972,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -215,7 +183,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 588.0
+		"width": 579.0
 	},
 	"console":
 	{
@@ -232,29 +200,97 @@
 	},
 	"file_history":
 	[
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/smoothscroll.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/bootstrap.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/ol-verethragna.sublime-project",
-		"/Users/kenlimmj/Library/Preferences/Adobe/Adobe Media Encoder/6.0/AMEEncodingLog.txt",
-		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/font.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/faq.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/subject.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/ol.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/about-us.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/main.css",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/pacman/pacman.js",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/main.css",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/theme/default.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/font.less",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/index.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/paper.css",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/theme/simple.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/ol-verethragna.sublime-project",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/pacman/index.html",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/Pac-Man/index.htm",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/Pac-Man/pacman.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/404.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/pacman.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/variables.less",
+		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson2.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/bootstrap.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/pager.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/pdf.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/buttons.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/type.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/jquery.fitvids.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/default.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/reveal.min.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/head.min.js",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/lib/js/head.min.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/index.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/sprites.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/accordion.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/alerts.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/breadcrumbs.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/button-groups.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/buttons.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/carousel.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/close.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/code.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/component-animations.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/dropdowns.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/grid.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/hero-unit.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/labels-badges.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/layouts.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/mixins.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/modals.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/navbar.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/navs.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/pager.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/pagination.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/popovers.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/progress-bars.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/reset.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive-767px-max.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive-768px-979px.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive-navbar.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive-utilities.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/forms.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-767px-max.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-1200px-min.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-768px-979px.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/mixins.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-utilities.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/component-animations.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/close.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/button-groups.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/utilities.less",
+		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/variables.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/google/forms.less",
+		"/Users/kenlimmj/Library/Caches/Cleanup At Startup/Transmit/52B8EE4E-6381-403A-B1F9-049541642117/home.php",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/google/buttons.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/google/navs.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/navs.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-navbar.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/navbar.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/meny.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/smoothscroll.min.js",
+		"/Users/kenlimmj/Library/Preferences/Adobe/Adobe Media Encoder/6.0/AMEEncodingLog.txt",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/faq.html",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/jquery.avgrund.js/index.html",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/jquery.avgrund.js/style/style.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/ol.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/buttons.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/button-groups.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/font/miso-regular-webfont.svg",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/kickstrap.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/fontawesome.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/scrollto.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/jquery.slideto.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/meny.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-767px-max.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-768px-979px.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-1200px-min.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive.less",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/Meny/index.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/meny.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/jmetronome.js",
@@ -263,29 +299,20 @@
 		"/Users/kenlimmj/Library/Caches/Cleanup At Startup/Transmit/F3B74FFA-B503-45CB-B42D-4ECF3AA1DAF0/category.php",
 		"/Users/kenlimmj/Library/Caches/Cleanup At Startup/Transmit/D445B5B7-20EB-40DB-9073-BB7FF44CC407/footer.php",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/bootstrap-scrollspy.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/variables.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/flexible-nav.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/tooltip.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/bootstrap-tooltip.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/utilities.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-utilities.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/breadcrumbs.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/fontello.less",
 		"/Users/kenlimmj/Downloads/gregoryloucas-Font-Awesome-More-7e8a424/less/font-awesome.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/type.less",
 		"/Users/kenlimmj/Downloads/fontello-918a5736/css/icon-font.css",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/dropdown",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/icons.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/jquery.fitvids.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_settings.scss",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/grid.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/layouts.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/sprites.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/reset.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/mixins.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/component-animations.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/dropdowns.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/close.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/branding.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_font.scss",
 		"/Volumes/Kenneth/openlectures/Website/olstatic/less/google-bootstrap.less",
@@ -300,66 +327,7 @@
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/ddslick.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/release.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/app.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/script.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_schedule.scss",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/offcanvas.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/offcanvas.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/plugins.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_offcanvas.scss",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson2.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/jquery.foundation.buttons.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/jquery.foundation.navigation.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/jquery.foundation.topbar.js",
-		"/Users/kenlimmj/Downloads/offcanvas/offcanvas-1.html",
-		"/Users/kenlimmj/Downloads/offcanvas/offcanvas-4.html",
-		"/Users/kenlimmj/Downloads/offcanvas/js/jquery.offcanvas.js",
-		"/Users/kenlimmj/Downloads/offcanvas/css/offcanvas.css",
-		"/Users/kenlimmj/Downloads/offcanvas/scss/offcanvas.scss",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_offcanvas.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/schedule.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/hyphenator.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/modernizr.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/tabletop.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/plugins.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/modernizr-2.5.3.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/plugins2.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/fittext.js",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/Timeline/css/style.css",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/Timeline/index.html",
-		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_meny.scss",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/Meny/css/meny.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_topbar-responsive.scss",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_megadrop.scss",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_responsive-tables.scss",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/responsive-tables.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/responsive-tables.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/index.html",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/tablesort/demo/index.html",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/responsive-tables/index.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_gbuttons.scss",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/stylesheets/foundation/common/_typography.scss",
-		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
-		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/TimelineJS/examples/model.json",
-		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/SublimeOnSaveBuild/README.md",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/foundation/stylesheets/foundation/components/modules/_ui.scss",
-		"/Volumes/Kenneth/openlectures/Website/olresponsive/lecture.php",
-		"/Volumes/Kenneth/openlectures/Website/olresponsive/functions.php",
-		"/Volumes/Kenneth/openlectures/Website/olresponsive/js/lecture.js",
-		"/Users/kenlimmj/Downloads/jhurliman-video-js-7d35d0d/dist/youtube.html",
-		"/Users/kenlimmj/Downloads/jhurliman-video-js-7d35d0d/design/video-js.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/video-js.min.css",
-		"/Users/kenlimmj/Downloads/jhurliman-video-js-7d35d0d/build/release-files/youtube.html",
-		"/Users/kenlimmj/Downloads/jhurliman-video-js-7d35d0d/build/release-files/demo.html",
-		"/Users/kenlimmj/Downloads/jhurliman-video-js-7d35d0d/dev.html",
-		"/Users/kenlimmj/Downloads/jhurliman-video-js-7d35d0d/build.sh",
-		"/Volumes/Kenneth/openlectures/Website/Frameworks/compass/lib/compass/exec/sub_command_ui.rb",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_fontello.scss",
-		"/Users/kenlimmj/Downloads/fontello-42bf58c1/css/icon-font.css",
-		"/Users/kenlimmj/.Trash/fontello-321996df/css/icon-font.css",
-		"/Users/kenlimmj/.Trash/fontello-321996df/demo.html",
-		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-settings"
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/script.js"
 	],
 	"find":
 	{
@@ -370,6 +338,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -377,6 +346,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#000",
+			"atlas",
+			"margin",
+			"\"MENU\"",
+			"menu",
+			"#000",
+			"p",
+			"class=\"pager\"",
+			"navigatePrevious",
+			".roll",
+			"roll",
+			"ul",
+			"iframe",
+			"input",
+			"prepend",
+			"nav-list",
 			"Checkpoint Question",
 			"==",
 			".menu",
@@ -482,6 +467,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#fff",
+			"li",
+			"class=\"pager hidden-phone\"",
+			"navigatePrev",
 			"Feeling Confused?",
 			"===",
 			"\"></i>",
@@ -524,130 +513,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 7045,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5089,
-								5092
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1626.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "less/ol.less",
-					"settings":
-					{
-						"buffer_size": 3452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1406,
-								1406
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 425.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "lesson.html",
-					"settings":
-					{
-						"buffer_size": 13390,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 52,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										11136,
-										11145
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								10422,
-								10720
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3342.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "less/bootstrap.less",
-					"settings":
-					{
-						"buffer_size": 1972,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								411,
-								411
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 289.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -1,0 +1,149 @@
+<!doctype html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+	<title>FML | openlectures</title>
+	<!-- universal meta -->
+	<meta charset="utf-8">
+	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
+	<meta name="author" content="The openlectures Team">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end universal meta -->
+
+	<!-- windows meta -->
+	<!--[if lt IE 7]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="application-name" content="openlectures">
+	<meta name="msapplication-tooltip" content="Free, online lectures for anyone who wants to learn">
+	<meta name="msapplication-starturl" content="/">
+	<link href="font-awesome-ie7.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+	<!-- end windows meta -->
+
+	<!-- default facebook meta -->
+	<meta property="og:site_name" content="openlectures">
+	<meta property="og:url" content="{canonical_url}">
+	<meta property="og:title" content="Free online lectures | openlectures">
+	<meta property="fb:app_id" content="238184899560410">
+	<meta property="og:email" content="hello@openlectures.org">
+	<!-- end default facebook meta -->
+
+	<!-- icons and humans.txt -->
+	<link rel="dns-prefetch" href="//youtube.com">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="fluid-icon" href="/apple-touch-icon-144x144-precomposed.png" title="openlectures">
+	<link rel="author" type="text/plain" href="humans.txt">
+	<!-- end icons and humans.txt -->
+
+	<!-- load CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen,projector,print" type="text/css">
+	<link href="css/main.css" rel="stylesheet" media="screen,projector,print" type="text/css">
+	<!-- <link href="css/holmes.min.css" rel="stylesheet" media="screen,projector,print" type="text/css"> -->
+	<script>
+		// If the query includes 'print-pdf' we'll use the PDF print sheet
+		document.write( '<link rel="stylesheet" href="css/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+	</script>
+	<!-- end CSS -->
+</head>
+<body class="holmes-debug">
+	<div class="reveal">
+
+		<!-- Used to fade in a background when a specific slide state is reached -->
+		<div class="state-background"></div>
+		
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<section>
+					<div class="container">
+						<div class="row-fluid margintop10p">
+							<div class="span4 hidden-phone">
+								<h1 style="font-size:20em;"><icon class="icon-globe"></icon></h1>
+								<h3 class="margintop40p">KABOOM!</h3>
+							</div><!--span4-->
+							<div class="span7 offset1 alignleft">
+								<h1>404: Oops</h1>
+								<p>We don't really know how to put this, but one of those <a href="http://en.wikipedia.org/wiki/Spacetime">space-time continuum</a> things happened, and the stuff you were looking for disappeared.</p>
+								<hr>
+								<div class="row-fluid">
+									<div class="span3 aligncenter">
+										<a href="#" onclick="history.back(-1);return false">
+											<h1 class="hidden-phone"><icon class="icon-chevron-left"></icon></h1>
+											<p>Go Back</p>
+										</a>
+									</div><!--span3-->
+									<div class="span3 aligncenter">
+										<a href="http://openlectures.org">
+											<h1 class="hidden-phone"><icon class="icon-home"></icon></h1>
+											<p>Home</p>
+										</a>
+									</div><!--span3-->
+									<div class="span3 aligncenter">
+										<a href="">
+											<h1 class="hidden-phone"><icon class="icon-envelope"></icon></h1>
+											<p>Contact Us</p>
+										</a>
+									</div><!--span3-->
+									<div class="span3 aligncenter">
+										<a href="#" onclick="Reveal.navigateNext();return false">
+											<h1 class="hidden-phone"><icon class="icon-ban-circle"></icon></h1>
+											<p>Do Not Click</p>
+										</a>
+									</div><!--span3-->
+								</div><!--row-->
+							</div><!--span7-->
+						</div><!--row-->
+				</section>
+
+				<section data-state="blackout">
+					<div class="container">
+						<div class="row-fluid">
+							<div class="span4 white alignleft">
+								<h1>Take a Break!</h1>
+								<p class="lead">We present approximately fifteen minutes of distraction from that which you were gainfully occupied with prior.</p>
+								<p><a href="#" onclick="Reveal.navigatePrev();return false"><i class="icon-arrow-up"></i> Resume Work</a></p>
+							</div><!--span3-->
+							<div class="span7 offset1 pull-right">
+								<div id="pacman"></div>
+							</div><!--span8-->
+						</div><!--row-->
+					</div><!--container-->
+				</section>
+			</section>
+		</div><!--slides-->
+
+<script src="js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script src="js/pacman.js"></script>
+<script src="js/modernizr-1.5.min.js"></script>
+
+  <script>
+
+    var el = document.getElementById("pacman");
+
+    if (Modernizr.canvas && Modernizr.localstorage && 
+        Modernizr.audio && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
+      window.setTimeout(function () { PACMAN.init(el, "./"); }, 0);
+    } else { 
+      el.innerHTML = "Sorry, needs a decent browser<br /><small>" + 
+        "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
+    }
+  </script>
+<script>
+	Reveal.initialize({
+		rollingLinks: false,
+		transition: 'linear',
+		keyboard: false,
+		mouseWheel: false
+	});
+</script>
+</body>
+</html>
