@@ -1,4 +1,4 @@
-/*********************************************
+/********************************************
  * GLOBAL STYLES
  *********************************************/
 
@@ -405,7 +405,7 @@ body {
  * DEFAULT TRANSITION
  *********************************************/
 
-.reveal .slides>section.past {
+/*.reveal .slides>section.past {
 	display: block;
 	opacity: 0;
 	
@@ -441,7 +441,7 @@ body {
 	   -moz-transform: translate3d(0, 50%, 0) rotateX(-70deg) translate3d(0, 50%, 0);
 	    -ms-transform: translate3d(0, 50%, 0) rotateX(-70deg) translate3d(0, 50%, 0);
 	        transform: translate3d(0, 50%, 0) rotateX(-70deg) translate3d(0, 50%, 0);
-}
+}*/
 
 
 /*********************************************
@@ -763,7 +763,7 @@ body {
 	overflow: hidden;	
 	opacity: 1;
 	cursor: pointer;
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0);
 }
 .reveal.overview .slides section .fragment {
 	opacity: 1;
@@ -775,13 +775,16 @@ body {
 .reveal.overview .slides section>section {
 	opacity: 1;
 	cursor: pointer;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 	.reveal.overview .slides section:hover {
-		background: rgba(0,0,0,0.3);
+		border: 3px dashed #333;
 	}
 
 	.reveal.overview .slides section.present {
-		background: rgba(0,0,0,0.3);
+		border: 3px solid #2eb8b8;
 	}
 .reveal.overview .slides>section.stack {
 	background: none;
@@ -829,11 +832,11 @@ body {
 	     -o-transition: background 800ms ease;
 	        transition: background 800ms ease;
 }
-.alert .state-background {
-	background: rgba( 200, 50, 30, 0.6 );
+.abc .state-background {
+	background: rgba(204, 255, 102, 1);
 }
-.soothe .state-background {
-	background: rgba( 50, 200, 90, 0.4 );
+.summary .state-background {
+	background: rgba(255, 204, 102, 1);
 }
 .blackout .state-background {
 	background: rgba( 0, 0, 0, 1 );
