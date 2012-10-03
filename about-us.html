@@ -55,19 +55,22 @@
 			<ul class="nav nav-pills">
 			<li class="active"><a href="#">About Us</a></li>
 			<li><a href="#">Staff and Lecturers</a></li>
-			<li><a href="#">Join In!</a></li>
-			<li><a href="#">Behind the Scenes</a></li>
+			<li><a href="#">Join Us!</a></li>
+			<li><a href="#">Breaking Every Rule</a></li>
 			<li><a href="#">Press Kit</a></li>
 			<li><a href="#">Contact Us</a></li>
 			</ul>
 	</div><!--span12-->
 	</div><!--row-->
-	<div class="row-fluid padtop10">
+	<div class="row-fluid padtop10 marginbot5p">
 	<div class="span7">
 		<h1>We believe that education should be free and accessible to every one.</h1>
-		<p class="lead">And that it should look <a href="/behind">damn good</a> while we're at it.</p>
+		<p class="lead">And that it should look <a href="behind.html">damn good</a> while we're at it.</p>
 	</div><!--span7-->
 	</div><!--row-->
+</div><!--container-->
+<div id="timeline-embed"></div>
+<div class="container">
 	<footer>
 		<div class="row">
 			<hr>
@@ -78,5 +81,19 @@
 	</footer>
 </div><!--container-->
 </body>
-<script src="js/bootstrap-affix.js">
+<script src="js/head.min.js"></script>
+<script>
+head.js("js/jquery-1.8.0.min.js","js/storyjs-embed.js");
+head.ready(function() {
+	$(document).ready(function() {
+	    createStoryJS({
+	        type:       'timeline',
+	        width:      '100%',
+	        height:     '600',
+	        source:     'https://docs.google.com/spreadsheet/pub?key=0Ahlne8dbHhEXdGRMZlVZU3RodnVvY2pfaWFYZjR4dWc&output=html',
+	        embed_id:   'timeline-embed'
+	    });
+	});
+});
+</script>
 </html>

@@ -200,11 +200,18 @@
 	},
 	"file_history":
 	[
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson5.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/variables.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/fontawesome.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/main.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson5-3.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/404.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/forms.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/subject.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/contact-us.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/ol.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/about-us.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/main.css",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/pacman/pacman.js",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/main.css",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/theme/default.css",
@@ -216,9 +223,7 @@
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/pacman/index.html",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/Pac-Man/index.htm",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/Pac-Man/pacman.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/404.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/pacman.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/variables.less",
 		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson2.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/bootstrap.less",
@@ -261,7 +266,6 @@
 		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive-navbar.less",
 		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive-utilities.less",
 		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/responsive.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/forms.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-767px-max.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-1200px-min.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-768px-979px.less",
@@ -288,7 +292,6 @@
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/jquery.avgrund.js/style/style.css",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/font/miso-regular-webfont.svg",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/kickstrap.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/fontawesome.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/scrollto.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/jquery.slideto.min.js",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/Meny/index.html",
@@ -324,10 +327,7 @@
 		"/Volumes/Git 1.7.11.3 Snow Leopard Intel Universal/setup git PATH for non-terminal programs.sh",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/foundation.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/app.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/ddslick.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/release.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/app.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/script.js"
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/ddslick.min.js"
 	],
 	"find":
 	{
@@ -346,6 +346,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"progress",
 			"#000",
 			"atlas",
 			"margin",
