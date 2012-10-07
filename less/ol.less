@@ -1,5 +1,5 @@
 /* LAYOUT */
-/* Pushes body down by 40px to account for the navbar, and pushes the footer down so it won't be so tight */
+
 a {
   -webkit-transition: 0.15s color ease;
 	 -moz-transition: 0.15s color ease;
@@ -8,10 +8,16 @@ a {
   text-decoration: none !important;
 }
 
+.clean, .clean:hover {
+	color: inherit;
+}
+.popover-title, .popover-content { text-align:center; }
+
 .olgreen {color:#339999;}
 .white {color: #fff;}
+.gray {color: @grayDark;}
 
-.add-on { font-size: @baseFontSize * 0.72 !important;}
+// .add-on { font-size: @baseFontSize * 0.72 !important;}
 	
 #pacman canvas{
     height: auto;

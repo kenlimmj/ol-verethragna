@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"timeline",
+				"timeline-embed"
+			],
+			[
 				"font",
 				"font-family"
 			],
@@ -67,20 +71,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "partners.html",
+			"settings":
+			{
+				"buffer_size": 5602,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 181.0,
 		"selected_items":
 		[
 			[
-				"less",
-				"Set Syntax: LESS"
+				"json",
+				"Set Syntax: JSON"
 			],
 			[
 				"css",
 				"Set Syntax: CSS"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
 			],
 			[
 				"java",
@@ -155,10 +171,6 @@
 				"Set Syntax: Plain Text"
 			],
 			[
-				"json",
-				"Set Syntax: JSON"
-			],
-			[
 				"set",
 				"Set Syntax: CSS"
 			],
@@ -200,43 +212,60 @@
 	},
 	"file_history":
 	[
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson5.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/variables.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/fontawesome.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/main.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson5-3.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/404.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/forms.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/subject.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/contact-us.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/ol.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/ol-verethragna.sublime-project",
+		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/wtf.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/economics.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/pd.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/bootstrap.less",
+		"/Volumes/Kenneth/openlectures/Website/Frameworks/list/list.min.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/popovers.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/tooltip.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/index.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/thumbnails.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/reveal.min.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/aural.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/navs.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/bootstrap-tab.js",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/main.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/people.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/press.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/contact-us.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/404.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/about-us.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/timeline.jsonp",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/timeline.css",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/font.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/subject.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/timeline.jsonp.json",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/timeline.json",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson5.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/navbar.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/fontawesome.less",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson5-3.html",
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/forms.less",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/pacman/pacman.js",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/main.css",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/theme/default.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/font.less",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/index.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/paper.css",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/css/theme/simple.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/ol-verethragna.sublime-project",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/pacman/index.html",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/Pac-Man/index.htm",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/Pac-Man/pacman.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/pacman.js",
-		"/Users/kenlimmj/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/lesson2.html",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/bootstrap.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/pager.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/pdf.css",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/buttons.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/type.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/jquery.fitvids.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/default.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/reveal.min.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/head.min.js",
 		"/Volumes/Kenneth/openlectures/Website/Frameworks/reveal.js/lib/js/head.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/index.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/sprites.less",
 		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/accordion.less",
 		"/Users/kenlimmj/Downloads/twitter-bootstrap-c52368d/less/alerts.less",
@@ -280,10 +309,8 @@
 		"/Users/kenlimmj/Library/Caches/Cleanup At Startup/Transmit/52B8EE4E-6381-403A-B1F9-049541642117/home.php",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/google/buttons.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/google/navs.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/navs.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/responsive-navbar.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/navbar.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/meny.css",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/smoothscroll.min.js",
 		"/Users/kenlimmj/Library/Preferences/Adobe/Adobe Media Encoder/6.0/AMEEncodingLog.txt",
@@ -303,7 +330,6 @@
 		"/Users/kenlimmj/Library/Caches/Cleanup At Startup/Transmit/D445B5B7-20EB-40DB-9073-BB7FF44CC407/footer.php",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/bootstrap-scrollspy.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/flexible-nav.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/tooltip.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/bootstrap-tooltip.js",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/breadcrumbs.less",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/fontello.less",
@@ -313,21 +339,7 @@
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/icons.html",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_settings.scss",
 		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/grid.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/layouts.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/reset.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/dropdowns.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/branding.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/_font.scss",
-		"/Volumes/Kenneth/openlectures/Website/olstatic/less/google-bootstrap.less",
-		"/Volumes/Kenneth/openlectures/Website/olstatic/less/bootstrap.less",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/sass/app.scss",
-		"/Users/kenlimmj/.rvm/gems/ruby-1.8.7-p370/gems/zurb-foundation-3.0.9/scss/foundation.scss",
-		"/Users/kenlimmj/.rvm/gems/ruby-1.8.7-p370/gems/zurb-foundation-3.0.9/scss/foundation/_settings.scss",
-		"/Users/kenlimmj/.rvm/gems/ruby-1.8.7-p370/gems/zurb-foundation-3.0.9/scss/foundation/functions/_modular-scale.scss",
-		"/Volumes/Git 1.7.11.3 Snow Leopard Intel Universal/setup git PATH for non-terminal programs.sh",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/foundation/foundation.min.js",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/css/app.css",
-		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/js/ddslick.min.js"
+		"/Volumes/Kenneth/openlectures/Website/ol-verethragna/less/layouts.less"
 	],
 	"find":
 	{
@@ -346,6 +358,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"if i have",
+			"<a href=\"#\" class=\"thumbnail\">",
+			"miso",
+			"border-radius",
+			"font-size",
+			"font",
 			"progress",
 			"#000",
 			"atlas",
@@ -468,6 +486,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<a href=\"#\" class=\"thumbnail\" rel=\"popover\" data-placement=\"top\" data-trigger=\"hover\" data-content=\"Stuff about Anni\" data-original-title=\"Anni Cai\">",
 			"#fff",
 			"li",
 			"class=\"pager hidden-phone\"",
@@ -514,8 +533,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "partners.html",
+					"settings":
+					{
+						"buffer_size": 5602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2976,
+								2976
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 712.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
