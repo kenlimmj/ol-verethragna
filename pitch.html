@@ -1,0 +1,651 @@
+<!doctype html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+	<title>The Pitch Deck | openlectures</title>
+	<!-- universal meta -->
+	<meta charset="utf-8">
+	<meta name="description" content="Free, online lectures for anyone who wants to learn">
+	<meta name="author" content="The openlectures Team">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end universal meta -->
+
+	<!-- windows meta -->
+	<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="application-name" content="openlectures">
+	<meta name="msapplication-tooltip" content="Free, online lectures for anyone who wants to learn">
+	<meta name="msapplication-starturl" content="/">
+	<link href="font-awesome-ie7.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+	<!-- end windows meta -->
+
+	<!-- default facebook meta -->
+	<meta property="og:site_name" content="openlectures">
+	<meta property="og:url" content="{{canonical_url}}">
+	<meta property="og:title" content="Applications of Price Discrimination">
+	<meta property="fb:app_id" content="238184899560410">
+	<meta property="og:email" content="hello@openlectures.org">
+	<!-- end default facebook meta -->
+
+	<!-- lesson facebook meta -->
+	<meta property="og:description" content="{{checkpoint_description}}">
+	<meta property="og:image" content="{{video_thumbnail_url}}">
+	<meta property="og:type" content="video">
+	<meta property="og:video" content="{{video_url}}">
+	<!-- end lesson meta -->
+
+	<!-- icons and humans.txt -->
+	<link rel="dns-prefetch" href="//youtube.com">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="fluid-icon" href="/apple-touch-icon-144x144-precomposed.png" title="openlectures">
+	<link rel="author" type="text/plain" href="humans.txt">
+	<!-- end icons and humans.txt -->
+
+	<!-- load CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen,projector,print" type="text/css">
+	<link href="css/main.css" rel="stylesheet" media="screen,projector,print" type="text/css">
+	</head>
+	
+	<body>
+		<div class="reveal">
+			<div class="state-background"></div>
+			<div class="slides">
+				<section>
+					<h1 class="margintop5p marginbot0" style="font-size:10em; line-height:1"><span class="insignia">ol</span></h1>
+					<hr>
+					<p class="lead">Prepared for <a href="http://en.wikipedia.org/wiki/Amol_Sarva">Amol Sarva</a></p>
+				</section>
+				<section class="alignleft">
+					<div class="span7">
+					<h1>We believe that education should be <span class="olgreen">free</span> and <span class="olgreen">accessible</span> to every one.</h1>
+					<p class="lead">And that it should look damn good while we're at it.</p>
+					</div><!--span7-->
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h3>And we are here to make an utopian generation of <br/><span class="olgreen">self-reliant</span>, <span class="olgreen">self-sufficient</span><br/> students whose potential is not limited by the capitalist economy.</h3>
+						<hr>
+						<p class="lead">just kidding</p>
+					</div><!--span8-->
+				</section>
+				<section class="alignleft">
+					<h1>Imagine you're a high school student</h1>
+					<h2>You need help with <span class="olgreen">Price Discrimination</span> in Economics</h2>
+					<hr>
+					<h4>Maybe your teacher didn't explain it well <small>(read: sucky teacher)</small></h4>
+					<h4>Maybe you slept in class <small>(shame on you)</small></h4>
+					<h4>Maybe you need to prepare for a test <small>(good job you!)</small></h4>
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+					<h3>You find a whole series of courses, organized in the exact same way that your school organizes them. <a href="http://www.collegeboard.org/" target="_blank">SATs</a>. Or <a href="http://apcentral.collegeboard.com/" target="_blank">APs</a>. Or in the case of Singapore, the <a href="http://www.seab.gov.sg/" target="_blank">SEAB</a>.</h3>
+					<hr>
+					<p class="lead">Unlike Wikipedia, you don’t feel lost.</p>
+					</div><!--span8-->
+				</section>
+				<section>
+					<div class="row-fluid">
+						<div class="span3">
+							<div class="aligncenter">
+								<h1 class="insignia padbot20" style="font-size:7em;">ol</h1>
+								<ul class="nav nav-pills nav-stacked">
+								<li class="disabled"><a href="">Biology</a></li>
+								<li class="disabled"><a href="">Chemistry</a></li>
+								<li class="active"><a>Economics</a></li>
+								<li class="disabled"><a href="">Physics</a></li>
+								<li class="disabled"><a href="">Mathematics</a></li>
+								<li class="disabled"><a href="">Literature</a></li>
+								<li class="disabled"><a href="">General Paper</a></li>
+								</ul>
+							</div><!--aligncenter-->
+						</div><!--span4-->
+						<div class="span8 offset1 alignleft">
+						<h1>Economics</h1>
+						<ul class="nav nav-pills" id="myTab">
+							<li class="active"><a href="#seab" data-toggle="tab">SEAB Syllabus</a></li>
+							<li><a href="#all" data-toggle="tab">Browse All</a></li>
+						</ul>
+						<div class="tab-content">
+						<div class="tab-pane active fade in" id="seab">
+							<h3>Market System</h3>
+							<h6><small>The emphasis of this section is on government objectives and policies relating to economic growth, employment, stability of prices and the balance of payments.  It emphasises the use of the AD-AS approach as a tool for the analysis of fiscal, monetary and supply-side policies, and their impact at the micro and macro levels.</small></h6>
+							<ol>
+								<li>Scarcity, Choice and Opportunity Cost</li>
+								<li>Resource Allocation in Competitive Markets</li>
+								<ul class="unstyled">
+									<li><a href="#" onclick="Reveal.navigateNext(); return false">Price Discrimination</a></li>
+								</ul>
+								<li>Firms and How They Operate</li>
+							</ol>
+							<hr>
+							<h3>Market Failure and Government Intervention</h3>
+							<h6><small>This theme examines the nature of market failure, its causes and possible policy remedies.</small></h6>
+							<ol>
+								<li>Market Failure</li>
+								<li>Government Intervention in the Market</li>
+							</ol>
+						</div><!--tabpane-->
+						<div class="tab-pane fade" id="all">
+							<div class="row-fluid">
+							<div class="span8">
+							<ul class="unstyled list">
+								<li>You Demand</li>
+								<li>I Supply</li>
+								<li>Shifts</li>
+								<li>The Market</li>
+								<li>Introduction to Elasticity</li>
+								<li>Price Elasticity</li>
+								<li>Income Elasticity</li>
+								<li>Market Structure</li>
+								<li>Perfectly Competitive Firms</li>
+								<li>Monopolies</li>
+								<li>Oligopolies</li>
+								<li>Additional Concepts</li>
+								<li>Evaluations</li>
+								<li>Market Failure</li>
+								<li>Introduction to Monetary Policy</li>
+								<li>Interest Rates</li>
+							</ul><!--unstyled-->
+						</div><!--span8-->
+						<div class="span3 offset1 aligncenter hidden-phone">
+							<h1>36</h1>
+							<p>lessons</p>
+							<hr>
+							<h1>184</h1>
+							<p>checkpoints</p>
+						</div><!--span3-->
+						</div><!--row-fluid-->
+						</div><!--tabpane-->
+						</div><!--tabcontent-->
+						</div><!--span8-->
+					</div><!--row-->
+				</section>
+				<section class="alignleft">
+					<div class="row-fluid">
+					<div class="span8">
+						<ul class="breadcrumb">
+						  <li><a><i class="icon-home"></i></a> <span class="divider">/</span></li>
+						  <li><a>Economics</a> <span class="divider">/</span></li>
+						  <li><a>Price Discrimination</a></li>
+						</ul>
+						<h1>Applications of P.D.</h1>
+						<h5><small>by</small> <span class="olgreen">Lydia Liu</span></h5>
+						<hr>
+						<p>Checkpoints:</p>
+						<ol>
+							<li><a href="#" onclick="Reveal.navigateNext();return false">Costs</a></li>
+							<li class="muted">Benefits</li>
+							<li class="muted">Coffee, Price Discrimination and Fair Trade</li>
+						</ol>
+					</div><!--span8-->
+					<div class="span4 aligncenter hidden-phone">
+						<h1 style="font-size:10em; line-height:2;"><a href="#" onclick="Reveal.navigateNext();return false"><i class="icon-chevron-right"></i></a></h1>
+					</div><!--span4-->
+					</div><!--row-fluid-->
+				</section>
+				<section class="margintop20p">
+					<h3>You find the topic broken down into short checkpoints</h3>
+					<h3>Excited, you click on <a href="#" onclick="Reveal.navigateNext(); return false">one</a></h3>
+				</section>
+				<section>
+					<div class="row-fluid alignleft">
+					<div class="span4">
+						<ul class="nav nav-pills nav-stacked aligncenter marginbot20p hidden-phone">
+							<li class="muted"><a>Back to Start</a></li>
+						</ul>
+						<h5 class="muted">5.1</h5>
+						<h2>Costs</h2>
+						<hr>
+						<p>Price discrimination may have negative effects on consumers and on society.</p>
+						<div class="row-fluid margintop20p hidden-phone">
+							<div class="span4">
+								<ul class="nav nav-pills nav-stacked aligncenter">
+									<li><a href="#" onclick="Reveal.navigateLeft();return false">Back</a></li>
+								</ul>
+							</div><!--span4-->
+							<div class="span4">
+								<ul class="nav nav-pills nav-stacked aligncenter">
+									<li class="disabled"><a>Question</a></li>
+								</ul>
+							</div><!--span4-->
+							<div class="span4">
+								<ul class="nav nav-pills nav-stacked aligncenter">
+									<li><a href="#" onclick="Reveal.navigateRight();return false">Next</a></li>
+								</ul>
+							</div><!--span4-->
+						</div><!--row-->
+					</div><!--span4-->
+					<div class="span8">
+						<div class="videoWrapper">
+						<iframe src="http://www.youtube.com/embed/GKQR2brSduo?rel=0&amp;theme=light&amp;color=white&amp;autoplay=0&amp;showinfo=0&amp;autohide=3&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
+						</div><!--videoWrapper-->
+					</div><!--span8-->
+					</div><!--row-->
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h3>You’re surprised to find another student teaching you. But you find her lesson incredibly understandable because <span class="olgreen">she’s a student just like you</span></h3>
+						<hr>
+						<p class="lead">She knows your problems and she solves them.</p>
+					</div><!--span8-->
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h3>You finish the lecture and you see a button titled <a href="#" onclick="Reveal.navigateNext(); return false">“question”</a>. You click on it, and find that you’re able to answer the question completely. Satisfied, you proceed to the next checkpoint.</h3>
+						<hr>
+						<p class="lead">We're going to enable the question button on the next slide. Try it!</p>
+					</div><!--span8-->
+				</section>
+				<section>
+					<section>
+						<div class="row-fluid alignleft">
+						<div class="span4">
+							<ul class="nav nav-pills nav-stacked aligncenter marginbot20p hidden-phone">
+								<li><a>Back to Start</a></li>
+							</ul>
+							<h5 class="muted">5.1</h5>
+							<h2>Costs</h2>
+							<hr>
+							<p>Price discrimination may have negative effects on consumers and on society.</p>
+							<div class="row-fluid margintop20p hidden-phone">
+								<div class="span4">
+									<ul class="nav nav-pills nav-stacked aligncenter">
+										<li><a href="#" onclick="Reveal.navigateLeft();return false">Back</a></li>
+									</ul>
+								</div><!--span4-->
+								<div class="span4">
+									<ul class="nav nav-pills nav-stacked aligncenter">
+										<li><h4><a href="#" onclick="Reveal.navigateNext();return false">Question</a></h4></li>
+									</ul>
+								</div><!--span4-->
+								<div class="span4">
+									<ul class="nav nav-pills nav-stacked aligncenter">
+										<li><a href="#" onclick="Reveal.navigateRight();return false">Next</a></li>
+									</ul>
+								</div><!--span4-->
+							</div><!--row-->
+						</div><!--span4-->
+						<div class="span8">
+							<div class="videoWrapper">
+							<iframe src="http://www.youtube.com/embed/GKQR2brSduo?rel=0&amp;theme=light&amp;color=white&amp;autoplay=0&amp;showinfo=0&amp;autohide=3&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
+							</div><!--videoWrapper-->
+						</div><!--span8-->
+						</div><!--row-->
+					</section>
+					<section class="alignleft">
+						<div class="row-fluid">
+							<div class="span4">
+								<ul class="nav nav-pills nav-stacked aligncenter marginbot20p hidden-phone">
+									<li><a href="#" onclick="Reveal.navigateUp();return false">Back to Lecture</a></li>
+								</ul>
+								<h5 class="muted">5.1: Costs</h5>
+								<h2>Question</h2>
+								<hr>
+								<p>What is the cost of price discrimination to society?</p>
+								<ul class="nav nav-pills nav-stacked aligncenter margintop20p">
+									<li><a href="#" onclick="Reveal.navigateNext();return false">Next</a></li>
+								</ul>
+							</div><!--span4-->
+							<div class="span7 offset1">
+								<p class="lead">Recall that price discrimination does not cause any additional deadweight loss to society because all consumer surplus lost is transferred to the producer. The main cost to society is where firms turn complacent and become x-inefficient.</p>
+							</div><!--span7-->
+						</div><!--row-->
+					</section>
+				</section>
+				<section class="alignleft">
+					<div class="row">
+						<div class="span4">
+							<h3>You explore the site and find out that all the lectures are given by students. For many topics like <span class="olgreen">Mathematics</span>, <span class="olgreen">Chemistry</span>, and <span class="olgreen">Physics</span>.</h3>
+							<hr>
+							<p class="lead">If only this was true.</p>
+						</div><!--span4-->
+						<div class="span7 offset1">
+							<div class="row">
+								<div class="span12">
+								<ul class="thumbnails">
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Anni Cai" data-original-title="Academic Dean">
+								    	<img src="img/profile/anni.jpg" >
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Belinda Ding" data-original-title="Special Projects Division">
+								    	<img src="img/profile/belinda.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Brina Tan" data-original-title="Lecturer">
+								    	<img src="img/profile/brina.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Casatrina Lee" data-original-title="Lecturer">
+								    	<img src="img/profile/casatrina.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Cheng Jing Jie" data-original-title="Lecturer">
+								    	<img src="img/profile/jingjie.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Claire Chan" data-original-title="Lecturer">
+								    	<img src="img/profile/claire.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Davin Ryanputra" data-original-title="Lecturer">
+								    	<img src="img/profile/davin.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Gabriel Wong" data-original-title="Lecturer">
+								    	<img src="img/profile/gabriel.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Gan Yu Neng" data-original-title="Lecturer">
+								    	<img src="img/profile/yuneng.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Gloria Chua" data-original-title="Chief Marketing Officer">
+								    	<img src="img/profile/gloria.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Han Ying Yue" data-original-title="Chief Relationships Officer">
+								    	<img src="img/profile/ying.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="He Zhiyuan" data-original-title="Head, Strategy">
+								    	<img src="img/profile/zhiyuan.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Ho Sheng Yi" data-original-title="Chief Photographer">
+								    	<img src="img/profile/shengyi.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Huynh Banh Cong" data-original-title="Lecturer">
+								    	<img src="img/profile/bang.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Jenny Niu" data-original-title="Lecturer">
+								    	<img src="img/profile/jenny.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Jeremy Teoh" data-original-title="Chief Networking Officer">
+								    	<img src="img/profile/jem.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Ke Yu Xuan" data-original-title="Lecturer">
+								    	<img src="img/profile/yuxuan.jpg">
+								    </a>
+								  </li>
+								  <li class="span2">
+								    <a href="#" class="thumbnail" rel="popover" data-placement="top" data-trigger="hover" data-content="Lim Mingjie Kenneth" data-original-title="Chief Executive Officer">
+								    	<img src="img/profile/kenneth.jpg">
+								    </a>
+								  </li>
+								</ul>
+							</div><!--span12-->
+						</div><!--row-->
+						</div><!--span7-->
+					</div><!--row-->
+				</section>
+				<section>
+					<div class="span8 offset2 margintop20p">
+						<h3>Well, turns out that it is actually true.</h3>
+					</div>
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h3>We have a working prototype</h3>
+						<hr>
+						<p class="lead">You've been looking at it</p>
+					</div>
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h3>In Singapore, we're at <a href="http://openlectures.org">http://openlectures.org</a></h3>
+						<hr>
+						<p class="lead">What you just saw was the next-generation release</p>
+					</div>
+				</section>
+				<section>
+					<div class="span12 margintop5p">
+					<p class="lead">We have been in open beta for <strong>seven months</strong>. We will launch around <strong>January-February</strong> next year. We have over <strong>30k users</strong>, which represents a significant portion of the entire target audience, despite having only released 20% of the total available content. We do not earn revenue, but since we have delivered nearly <strong>350k lectures</strong>, if we average the duration of the lecture to 3 minutes, at the market-rate of SGD$60 per hour our lecturers easily command, we will have earned <strong>$1,050,000</strong> from the lectures alone. The proprietary modifications we make to the syllabus, if valued by man-hour invested when considering licensing agreements, can be worth upwards of <strong>$5,000 per subject</strong>, excluding subsequent updates.</p>
+					</div>
+				</section>
+				<section>
+					<div class="span8 offset2 margintop20p">
+						<h3>Let's put that in perspective.</h3>
+					</div>
+				</section>
+				<section>
+			        <div class="span8 hidden-phone">
+			        	<img src="img/pie1.png">
+				    </div><!--span8-->
+				    <div class="span4 margintop10p">
+				    	<h1><span class="olgreen">50%</span> of our visitors are <span class="olgreen">returning visitors</span></h1>
+				    </div><!--span4-->
+				</section>
+				<section>
+			        <div class="span8 hidden-phone">
+			        	<img src="img/pie2.png">
+				    </div><!--span8-->
+				    <div class="span4 margintop10p">
+				    	<h1><span class="salmon">60%</span> has visited the site more than <span class="salmon">4 times</span></h1>
+				    </div><!--span4-->
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h1 style="font-size:7em; line-height:1">23,000</h1>
+						<hr>
+						<p class="lead">This means 23,000 students view our courses regularly</p>
+					</div>
+				</section>
+				<section>
+					<div class="row">
+					<div class="span4 offset4">
+					<h1 style="font-size:7em; line-height:1">23,000</h1>
+					<hr style="border-color:#404040">
+					<h2>50,000</h2>
+					</div><!--span4-->
+					</div><!--row-->
+					<hr>
+					<p class="lead">Did I mention that Singapore only has around 50,000 students in Grades 11 and 12 combined?</p>
+				</section>
+				<section>
+					<div class="row">
+					<div class="span4 margintop10p">
+						<h3>Economics + Physics + Chemistry + Mathematics</h3>
+					</div><!--span4-->
+					<div class="span4 margintop10p">
+						<h3><span class="olgreen">is</span></h3>
+					</div><!--span4-->
+					<div class="span4">
+					<h1 style="font-size:7em; line-height:1">23,000</h1>
+					<hr style="border-color:#404040">
+					<h2>50,000</h2>
+					</div><!--span4-->
+					</div><!--row-->
+					<hr>
+					<p class="lead">Did I also mention that we have only covered Grade 11 and 12 content? And for those, only half of Economics and 25% each of Physics, Chemistry and Mathematics?</p>
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h1>In less than <span class="olgreen">7 months</span>, we have managed <span class="olgreen">50% market penetration</span> with less than 30% syllabus.</h1>
+					</div>
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h2>Now try conjecturing producing lectures for just the SATs and APs, for high-school students in America.</h2>
+						<hr>
+						<p class="lead">We have done enough math. You calculate the demand.</p>
+					</div>
+				</section>
+				<section>
+					<div class="span4 margintop5p">
+						<img src="img/hpb.png">
+						<p><a href="http://www.hpb.gov.sg/HOPPortal/" target="_blank">Health Promotion Board, Singapore</a></p>
+					</div><!--span4-->
+					<div class="span5 offset2 alignleft margintop10p">
+						<h3>But let’s not stop there. What about Corporate Organizations interested in documenting knowledge for their employees? </h3>
+						<hr>
+						<p class="lead">We have done that as well.</p>
+					</div><!--span7-->
+				</section>
+				<section>
+					<div class="span4 alignleft margintop10p">
+						<p class="lead">What about allowing <strong>institutions</strong> like schools to <strong>sponsor</strong> lessons so that a course can be called the “Exeter Philips Course for Chemistry”?</p>
+					</div><!--span6-->
+					<div class="span4 offset2 alignleft margintop10p">
+						<p class="lead">What about <strong>unobtrusively gathered analytics</strong> that tell us how students use online courses?</p>
+					</div><!--span6-->
+				</section>
+				<section>
+					<div class="span4">
+						<img src="img/competitors1.png">
+					</div><!--span4-->
+					<div class="span7 offset1 margintop10p alignleft">
+						<h2>These guys are our<br/><span class="olgreen">"main competitors".</span></h2>
+						<hr>
+						<p class="lead">That is, if they did their stuff on our kind of budget</p>
+					</div><!--span7-->
+				</section>
+				<section>
+					<div class="span4">
+						<img src="img/competitors1.png">
+					</div><!--span4-->
+					<div class="span7 offset1 alignleft margintop5p">
+						<p class="lead">vs. <a href="http://www.khanacademy.org/" target="_blank">Khan Academy</a></p>
+						<h3>We put a face to the lecture. Research shows people look for faces first, then shapes and colours, before text.</h3>
+					</div><!--span7-->
+				</section>
+				<section>
+					<div class="span4">
+						<img src="img/competitors1.png">
+					</div><!--span4-->
+					<div class="span7 offset1 alignleft margintop10p">
+						<p class="lead">vs. <a href="https://www.coursera.org/" target="_blank">Coursera</a> and <a href="http://www.udacity.com/" target="_blank">Udacity</a></p>
+						<h3>We’re not obsessed with getting people to sign up for courses so we can boast a large user base. We're really open and free.</h3>
+					</div><!--span7-->
+				</section>
+				<section>
+					<div class="span4">
+						<img src="img/competitors1.png">
+					</div><!--span4-->
+					<div class="span7 offset1 alignleft margintop20p">
+						<p class="lead">vs. <a href="http://ocw.mit.edu/index.htm" target="_blank">MIT OpenCourseWare</a></p>
+						<h3>We teach with the objective of sharing online, not film an ongoing class over one hundred heads and conveniently post it online. That, and our lectures are short and quick.</h3>
+					</div><!--span7-->
+				</section>
+				<section>
+					<div class="span8 offset2 margintop20p">
+						<h1>Meet <span class="olgreen">The Team</span></h1>
+					</div>
+				</section>
+				<section class="margintop10p">
+					<div class="span3">
+						<h3>Linan Qiu</h3>
+						<p class="lead">Zoo Keeper</p>
+						<img src="img/Linan_Qiu.jpg">
+					</div><!--span3-->
+					<div class="span3">
+						<h3>Kenneth Lim</h3>
+						<p class="lead">Code Monkey</p>
+						<img src="img/Kenneth_Lim.jpg">
+					</div><!--span3-->
+					<div class="span3">
+						<h3>Jenny Liu</h3>
+						<p class="lead">Propagandist</p>
+						<img src="img/Jiahui_Liu.jpg">
+					</div><!--span3-->
+					<div class="span3">
+						<h3>Larry He</h3>
+						<p class="lead">Strategy</p>
+						<img src="img/He_Zhiyuan.jpg">
+					</div><!--span3-->
+				</section>
+				<section>
+					<div class="row">
+					<div class="span7 alignleft">
+					<h3>The founders, <strong>Linan</strong> and <strong>Kenneth</strong> run Singapore's economy together.</h3>
+					</div><!--span7-->
+					</div><!--row-->
+					<br/>
+					<div class="row">
+						<div class="span5 offset7 alignleft">
+							<p><strong>Jenny</strong>, <strong>Larry</strong>, and <strong>Linan</strong> are all <a href="http://www.columbia.edu/" target="_blank">Columbia</a> undergrads. <strong>Kenneth</strong> will be joining them in New York at <a href="http://www.cornell.edu/" target="_blank">Cornell</a> in 2013.</p>
+							<p>Linan and Kenneth are both <a href="http://www.edb.gov.sg/content/edb/en.html?cmpid=edb_en38" target="_blank">Singapore Economic Development Board (EDB)</a> scholars. Before starting this company, Linan played synthesizers for rock bands and Kenneth designed <a href="http://www.opticsinfobase.org/josaa/abstract.cfm?uri=josaa-28-5-903" target="_blank">microscopes for Intel</a>. Behind them is one failed startup among a few successful ones. However, after starting openlectures, they eat, sleep, and dream openlectures. As Kenneth says:</p>
+							<blockquote>
+								“If we put our time into something less impressive instead of the stuff we’re good at, then we’re a bunch of idiots.”</blockquote>
+						</div><!--span5-->
+					</div><!--row-->
+				</section>
+				<section>
+					<div class="span8 offset2 margintop20p">
+						<h1>We hope you see <span class="olgreen">potential</span> in us.</h1>
+					</div>
+				</section>
+				<section>
+					<div class="span8 offset2 margintop10p">
+						<h1>Because someone else already did</h1>
+						<hr>
+						<p class="lead">We have seed stage funding in Singapore. However, what is Singapore compared to the rest of the world? We are a tech startup. Geographical barriers mean nothing to us.</p>
+					</div>
+				</section>
+				<section>
+					<h1 class="margintop20p" style="font-size:3em; line-height:1"><span class="helvetica"><strong>open</strong>lectures</span></h1>
+				</section>
+			</div><!--slides-->
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#"><i class="icon-caret-left icon-large"></i></a>
+				<a class="right" href="#"><i class="icon-caret-right icon-large"></i></a>
+				<a class="up" href="#"><i class="icon-caret-up icon-large"></i></a>
+				<a class="down" href="#"><i class="icon-caret-down icon-large"></i></a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<!-- <div class="progress"><span></span></div> -->
+			</div><!--reveal-->
+
+		<script src="js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+			head.js("js/jquery-1.8.0.min.js","js/bootstrap-tab.js","js/bootstrap-transition.js","js/bootstrap-tooltip.js","js/bootstrap-popover.js");
+			Reveal.initialize({
+				history: true,
+				rollingLinks: false,
+				transition: 'linear',
+				mouseWheel: false
+			});
+			head.ready(function() {
+			$("a[rel=popover]")
+		      .popover()
+		      .click(function(e) {
+		        e.preventDefault()
+		      })
+		      });
+		</script>
+
+	</body>
+</html>
