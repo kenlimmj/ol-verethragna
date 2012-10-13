@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
 <head>
-	<title>Price Discrimination | openlectures</title>
+	<title>Economics | openlectures</title>
 	<!-- universal meta -->
 	<meta charset="utf-8">
 	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
@@ -53,10 +53,11 @@
 	<div class="span3">
 			<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
 			<ul class="nav nav-pills nav-stacked">
-				<li><a href="profile.html">Profile</a></li>
+				<li><a href="profile.html">Lim Mingjie, Kenneth</a></li>
 				<li><a href="email.html">Email</a></li>
-				<hr>			
-				<li class="active"><a href="manage-subject.html">Subjects > Economics</a></li>
+				<hr>
+				<li><a href="manage-subject.html">Subjects</a></li>
+				<li class="active"><a href="newtopic.html">Add Topic</a></li>
 				<li><a href="add-lesson.html">Add Lesson</a></li>
 				<li><a href="schedule.html">Schedule</a></li>
 				<li><a href="staff.html">Staff Database</a></li>
@@ -66,48 +67,29 @@
 			</ul>
 	</div><!--span3-->
 	<div class="span8 offset1">
-	<h1>Price Discrimination <small><a href="#" class="salmon">(EDIT)</a></small></h1>
-	<h5><small>by</small> <a href="#">Lydia Liu</a> <small><a href="#" class="salmon">(CHANGE)</a></small></h5>
+	<h1>New Topic</h1>
+	<p class="lead"><small>in</small> <a href="#">Economics</a> <small><a href="#" class="salmon">(CHANGE)</a></small></p>
 	<hr>
-	<div class="accordion" id="accordion2">
-	  <div class="accordion-group">
-	    <div class="accordion-heading">
-	      <a class="accordion-toggle" data-toggle="collapse" href="#Costs">
-	        Costs
-	      </a>
-	    </div>
-	    <div id="Costs" class="accordion-body collapse in">
-	      <div class="accordion-inner">
-	        
-	      </div>
-	    </div>
-	  </div>
-	  <div class="accordion-group">
-	    <div class="accordion-heading">
-	      <a class="accordion-toggle" data-toggle="collapse" href="#Benefits">
-	        Benefits
-	      </a>
-	    </div>
-	    <div id="Benefits" class="accordion-body collapse">
-	      <div class="accordion-inner">
-	        
-	      </div>
-	    </div>
-	  </div>
-	  <div class="accordion-group">
-	    <div class="accordion-heading">
-	      <a class="accordion-toggle" data-toggle="collapse" href="#Coffee">
-	        Coffee, Discrimination and Fair Trade
-	      </a>
-	    </div>
-	    <div id="Coffee" class="accordion-body collapse">
-	      <div class="accordion-inner">
-	        
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<h3 class="aligncenter"><a href="new-checkpoint.html"><i class="icon-plus"></i><br/><small>New Checkpoint</small></a></h3>
+	<form class="form-horizontal">
+		<div class="control-group">
+			<label class="control-label" for="title">Topic Title</label>
+			<div class="controls">
+			<input type="text" id="title" placeholder="Title" class="input-xxlarge" value="" required>
+			</div><!--controls-->
+		</div><!--controlgroup-->
+		<div class="control-group">
+			<label class="control-label" for="description">Description</label>
+			<div class="controls">
+			<textarea id="description" class="input-xxlarge" placeholder="Checkpoint Description" rows="5" value="" required></textarea>
+			</div><!--controls-->
+		</div><!--controlgroup-->
+		<div class="control-group">
+			<label class="control-label" for="subtopic">Subtopics</label>
+			<div class="controls">
+			<textarea id="subtopic" class="input-xxlarge" placeholder="Insert each subtopic on a new row" rows="5" value="" required></textarea>
+			</div><!--controls-->
+		</div><!--controlgroup-->
+	</form>
 	</div><!--span8-->
 	</div><!--row-->
 </div><!--container-->
@@ -122,9 +104,5 @@
 		</div><!--row-->
 	</footer>
 </div><!--container-->
-<script src="js/head.min.js"></script>
-<script>
-head.js("js/jquery-1.8.0.min.js","js/bootstrap-collapse.js","js/bootstrap-transition.js");
-</script>
 </body>
 </html>
