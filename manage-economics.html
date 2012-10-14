@@ -51,19 +51,21 @@
 <div class="container">
 	<div class="row">
 	<div class="span3">
-			<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
-			<ul class="nav nav-pills nav-stacked">
-				<li><a href="profile.html">Lim Mingjie, Kenneth</a></li>
-				<li><a href="email.html">Email</a></li>
-				<hr>
-				<li class="active"><a href="manage-subject.html">Subjects > Economics</a></li>
-				<li><a href="add-lesson.html">Add Lesson</a></li>
-				<li><a href="schedule.html">Schedule</a></li>
-				<li><a href="staff.html">Staff Database</a></li>
-				<hr>
-				<li><a href="admin.html">Admin Functions</a></li>
-				<li><a href="logout.html">Log Out</a></li>
-			</ul>
+		<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
+		<ul class="nav nav-pills nav-stacked">
+			<li><a href="profile.html">Lim Mingjie, Kenneth</a></li>
+			<li class="disabled"><a>Email</a></li>
+			<hr>
+			<li><a href="manage-subject.html">Subjects</a></li>
+			<li><a href="topic.html">Add Topic</a></li>
+			<li><a href="lesson.html">Add Lesson</a></li>
+			<li><a href="checkpoint.html">Add Checkpoint</a></li>
+			<hr>
+			<li><a href="schedule.html">Schedule</a></li>
+			<li><a href="staff.html">Staff Database</a></li>
+			<hr>
+			<li><a href="logout.html">Log Out</a></li>
+		</ul>
 	</div><!--span3-->
 	<div class="span8 offset1">
 	<h1>Economics</h1>
@@ -71,10 +73,10 @@
 	<hr>
 	<div class="row">
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="newtopic.html"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Topic</small></a></h3>
+			<h3 class="aligncenter"><a href="topic.html"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Topic</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="newlesson.html"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Lesson</small></a></h3>
+			<h3 class="aligncenter"><a href="lesson.html"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Lesson</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
 			<h3 class="aligncenter"><a href="batchedit.html"><span class="hidden-phone"><i class="icon-table"></i><br/></span><small>Batch Edit</small></a></h3>
@@ -89,14 +91,14 @@
 	<ol>
 		<li>Scarcity, Choice and Opportunity Cost</li>
 		<ul class="unstyled">
-			<li><a href="/pd.html">Demand and Supply</a></li>
-			<li><a href="/pd.html">Scarcity</a></li>
+			<li class="lesson" draggable="true"><i class="icon-sort"></i><a href="/pd.html">Demand and Supply</a></li>
+			<li class="lesson" draggable="true"><i class="icon-sort"></i><a href="/pd.html" class="muted">Scarcity</a></li>
 		</ul>
 		<li>Resource Allocation in Competitive Markets</li>
 		<ul class="unstyled">
-			<li><a href="/pd.html">Determinants of Demand and Supply</a></li>
-			<li><a href="/pd.html">Elasticity</a></li>
-			<li><a href="manage-lesson.html">Applications of Price Discrimination</a></li>
+			<li class="lesson" draggable="true"><i class="icon-sort"></i><a href="/pd.html" class="muted">Determinants of Demand and Supply</a></li>
+			<li class="lesson" draggable="true"><i class="icon-sort"></i><a href="/pd.html" class="muted">Elasticity</a></li>
+			<li class="lesson" draggable="true"><i class="icon-sort"></i><a href="manage-lesson.html">Applications of Price Discrimination</a></li>
 		</ul>
 		<li>Firms and How They Operate</li>
 	</ol>
@@ -118,16 +120,16 @@
 	<hr>
 	<div class="row">
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#newtopic" role="button" data-toggle="modal"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Topic</small></a></h3>
+			<h3 class="aligncenter"><a href="topic.html"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Topic</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#newtopic" role="button" data-toggle="modal"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Lesson</small></a></h3>
+			<h3 class="aligncenter"><a href="lesson.html"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>New Lesson</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#newtopic" role="button" data-toggle="modal"><span class="hidden-phone"><i class="icon-table"></i><br/></span><small>Batch Edit</small></a></h3>
+			<h3 class="aligncenter"><a href="batchedit.html"><span class="hidden-phone"><i class="icon-table"></i><br/></span><small>Batch Edit</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#newtopic" role="button" data-toggle="modal" class="salmon"><span class="hidden-phone"><i class="icon-warning-sign"></i><br/></span><small>Disable</small></a></h3>
+			<h3 class="aligncenter"><a href="disable.html" class="salmon"><span class="hidden-phone"><i class="icon-warning-sign"></i><br/></span><small>Disable</small></a></h3>
 		</div><!--span2-->
 	</div><!--row-->
 	</div><!--span8-->
@@ -144,5 +146,40 @@
 		</div><!--row-->
 	</footer>
 </div><!--container-->
+<script>
+function handleDragOver(e) {
+  if (e.preventDefault) {
+    e.preventDefault(); // Necessary. Allows us to drop.
+  }
+
+  e.dataTransfer.dropEffect = 'move';  // See the section on the DataTransfer object.
+
+  return false;
+}
+var dragSrcEl = null;
+function handleDragStart(e) {
+  dragSrcEl = this;
+
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/html', this.innerHTML);
+}
+function handleDrop(e) {
+  if (e.stopPropagation) {
+    e.stopPropagation();
+  }
+  if (dragSrcEl != this) {
+    dragSrcEl.innerHTML = this.innerHTML;
+    this.innerHTML = e.dataTransfer.getData('text/html');
+  }
+
+  return false;
+}
+var cols = document.querySelectorAll('.lesson');
+[].forEach.call(cols, function(col) {
+  col.addEventListener('dragstart', handleDragStart, false);
+  col.addEventListener('dragover', handleDragOver, false);
+  col.addEventListener('drop', handleDrop, false);
+});
+</script>
 </body>
 </html>

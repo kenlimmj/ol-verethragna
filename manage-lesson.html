@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
 <head>
-	<title>Price Discrimination | openlectures</title>
+	<title>Applications of Price Discrimination | openlectures</title>
 	<!-- universal meta -->
 	<meta charset="utf-8">
 	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
@@ -54,26 +54,28 @@
 		<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
 		<ul class="nav nav-pills nav-stacked">
 			<li><a href="profile.html">Lim Mingjie, Kenneth</a></li>
-			<li><a href="email.html">Email</a></li>
+			<li class="disabled"><a>Email</a></li>
 			<hr>
-			<li class="active"><a href="manage-subject.html">Subjects > Economics</a></li>
-			<li><a href="add-lesson.html">Add Lesson</a></li>
+			<li><a href="manage-subject.html">Subjects</a></li>
+			<li><a href="topic.html">Add Topic</a></li>
+			<li><a href="lesson.html">Add Lesson</a></li>
+			<li><a href="checkpoint.html">Add Checkpoint</a></li>
+			<hr>
 			<li><a href="schedule.html">Schedule</a></li>
 			<li><a href="staff.html">Staff Database</a></li>
 			<hr>
-			<li><a href="admin.html">Admin Functions</a></li>
 			<li><a href="logout.html">Log Out</a></li>
 		</ul>
 	</div><!--span3-->
 	<div class="span8 offset1">
-	<h1>Application of Price Discrimination <small><a href="#" class="salmon">(EDIT)</a></small></h1>
-	<p class="lead"><small>by</small> <a href="#">Lydia Liu</a> <small><a href="#" class="salmon">(CHANGE)</a> in</small> <a href="#">Economics</a> <small><a href="#" class="salmon">(CHANGE)</a></small></p>
+	<h1>Application of Price Discrimination</a></small></h1>
+	<p class="lead"><small>by</small> <a href="#">Lydia Liu</a> in <a href="#">Economics</a></p>
 	<hr>
 	<div class="accordion" id="accordion2">
-	  <div class="accordion-group">
+	  <div class="accordion-group checkpoint">
 	    <div class="accordion-heading">
 	      <a class="accordion-toggle" data-toggle="collapse" href="#Costs">
-	        Costs
+	        <i class="icon-sort"></i> Costs
 	      </a>
 	    </div><!--accordionheading-->
 	    <div id="Costs" class="accordion-body collapse">
@@ -114,10 +116,10 @@
 			</div><!--accordioninner-->
 	    </div><!--accordionbody-->
 	  </div>
-	  <div class="accordion-group">
+	  <div class="accordion-group checkpoint">
 	    <div class="accordion-heading">
 	      <a class="accordion-toggle" data-toggle="collapse" href="#Benefits">
-	        Benefits
+	        <i class="icon-sort"></i> Benefits
 	      </a>
 	    </div>
 	    <div id="Benefits" class="accordion-body collapse">
@@ -158,10 +160,10 @@
 			</div>
 	    </div>
 	  </div>
-	  <div class="accordion-group">
+	  <div class="accordion-group checkpoint">
 	    <div class="accordion-heading">
 	      <a class="accordion-toggle" data-toggle="collapse" href="#Coffee">
-	        Coffee, Discrimination and Fair Trade
+	        <i class="icon-sort"></i> Coffee, Discrimination and Fair Trade
 	      </a>
 	    </div>
 	    <div id="Coffee" class="accordion-body collapse">
@@ -205,16 +207,16 @@
 	</div>
 	<div class="row">
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>Checkpoint</small></a></h3>
+			<h3 class="aligncenter"><a href="checkpoint.html"><span class="hidden-phone"><i class="icon-plus"></i><br/></span><small>Checkpoint</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#"><span class="hidden-phone"><i class="icon-calendar"></i><br/></span><small>Schedule</small></a></h3>
+			<h3 class="aligncenter"><a href="lesson.html"><span class="hidden-phone"><i class="icon-edit"></i><br/></span><small>Edit Lesson</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#" class="salmon"><span class="hidden-phone"><i class="icon-warning-sign"></i><br/></span><small>Disable</small></a></h3>
+			<h3 class="aligncenter"><a href="disable.html" class="salmon"><span class="hidden-phone"><i class="icon-warning-sign"></i><br/></span><small>Disable</small></a></h3>
 		</div><!--span2-->
 		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#" class="salmon"><span class="hidden-phone"><i class="icon-trash"></i><br/></span><small>Delete</small></a></h3>
+			<h3 class="aligncenter"><a href="delete.html" class="salmon"><span class="hidden-phone"><i class="icon-trash"></i><br/></span><small>Delete</small></a></h3>
 		</div><!--span2-->
 	</div><!--row-->
 	</div><!--span8-->
@@ -233,7 +235,42 @@
 </div><!--container-->
 <script src="js/head.min.js"></script>
 <script>
-head.js("js/jquery-1.8.0.min.js","js/bootstrap-collapse.js","js/bootstrap-transition.js","js/bootstrap-affix.js");
+head.js("js/jquery-1.8.0.min.js","js/bootstrap-collapse.js","js/bootstrap-transition.js");
+</script>
+<script>
+function handleDragOver(e) {
+  if (e.preventDefault) {
+    e.preventDefault(); // Necessary. Allows us to drop.
+  }
+
+  e.dataTransfer.dropEffect = 'move';  // See the section on the DataTransfer object.
+
+  return false;
+}
+var dragSrcEl = null;
+function handleDragStart(e) {
+  dragSrcEl = this;
+
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/html', this.innerHTML);
+}
+function handleDrop(e) {
+  if (e.stopPropagation) {
+    e.stopPropagation();
+  }
+  if (dragSrcEl != this) {
+    dragSrcEl.innerHTML = this.innerHTML;
+    this.innerHTML = e.dataTransfer.getData('text/html');
+  }
+
+  return false;
+}
+var cols = document.querySelectorAll('.checkpoint');
+[].forEach.call(cols, function(col) {
+  col.addEventListener('dragstart', handleDragStart, false);
+  col.addEventListener('dragover', handleDragOver, false);
+  col.addEventListener('drop', handleDrop, false);
+});
 </script>
 </body>
 </html>

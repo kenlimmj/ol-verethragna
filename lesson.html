@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
 <head>
-	<title>Subjects | openlectures</title>
+	<title>New Lesson | openlectures</title>
 	<!-- universal meta -->
 	<meta charset="utf-8">
 	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
@@ -44,7 +44,7 @@
 	<!-- end icons and humans.txt -->
 
 	<!-- load CSS -->
-	<link href="css/bootstrap.css" rel="stylesheet" media="screen,projector,print" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen,projector,print">
 	<!-- end CSS -->
 </head>
 <body class="holmes-debug">
@@ -68,139 +68,76 @@
 		</ul>
 	</div><!--span3-->
 	<div class="span8 offset1">
-	<h1>Subjects</h1>
-	<p class="lead">1099 checkpoints in 250 lessons</p>
+	<h1>New Lesson</h1>
+	<p class="lead"><small>in</small> <a href="#">Scarcity, Choice and Opportunity Cost</a> <small><a href="#" class="salmon">(CHANGE)</a></small></p>
 	<hr>
+	<form class="form-horizontal">
+		<div class="control-group">
+			<label class="control-label" for="title">Lesson Title</label>
+			<div class="controls">
+			<input type="text" id="title" placeholder="Title" class="input-xxlarge" value="" required>
+			<span class="help-block">Max. 100 characters. Be concise!</span>
+			</div><!--controls-->
+		</div><!--controlgroup-->
+		<div class="control-group">
+			<label class="control-label" for="lecturer">Lecturer(s)</label>
+			<div class="controls">
+			<input type="text" id="lecturer" placeholder="Type Lecturer Name" class="input-xxlarge" value="" required>
+			<span class="help-block">You can add more than one lecturer.</span>
+			</div><!--controls-->
+		</div><!--controlgroup-->
+		<hr>
+		<div class="control-group">
+			<label class="control-label" for="date">Release Date</label>
+			<div class="controls">
+			<input type="date" class="input-xxlarge" id="date">
+			<span class="help-block">Defaults to the current day if left blank. Change this date to schedule releases</span>
+			</div><!--controls-->
+		</div><!--controlgroup-->
+		<div class="control-group">
+			<label class="control-label" for="spreadsheet">Import Checkpoint(s)</label>
+			<div class="controls">
+			<input type="url" id="spreadsheet" placeholder="Paste Google Spreadsheet URL" class="input-xxlarge">
+			<span class="help-block">This field is optional. You can manually add checkpoints later.</span>
+			</div><!--controls-->
+		</div><!--controlgroup-->
+	</form>
+	<hr>
+	<div class="accordion" id="accordion2">
+		<div class="accordion-group">
+			<div class="accordion-heading">
+				<a class="accordion-toggle" data-toggle="collapse" href="#preview">
+				Preview
+				</a>
+			</div><!--accordionheading-->
+			<div id="preview" class="accordion-body collapse">
+				<div class="accordion-inner">
+					<h1>Lesson Title</h1>
+					<p class="lead"><small>by</small> <a href="#">Lecturer Name</a></p>
+					<ol>
+						<li>Checkpoint Title</li>
+						<li>Checkpoint Title</li>
+						<li>Checkpoint Title</li>
+					</ol>
+				</div><!--accordioninner-->
+			</div><!--accordionbody-->
+		</div><!--accordiongroup-->
+	</div>
 	<div class="row">
-		<div class="span4">
-			<h3><a href="manage-bio.html">Biology</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="salmon">Disabled</span></dd>
-				<span class="muted">
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-				</span><!--muted-->
-			</dl>
-		</div><!--span4-->
-		<div class="span4">
-			<h3><a href="manage-chem.html">Chemistry</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="salmon">Disabled</span></dd>
-				<span class="muted">
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-				</span><!--muted-->
-			</dl>
-		</div><!--span4-->
-		<div class="span4">
-			<h3><a href="manage-physics.html">Physics</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="salmon">Disabled</span></dd>
-				<span class="muted">
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-				</span><!--muted-->
-			</dl>
-		</div><!--span4-->
-		<div class="span4">
-			<h3><a href="manage-lit.html">Literature</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="cantaloupe">Live</span></dd>
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-			</dl>
-		</div><!--span4-->
-		<div class="span4">
-			<h3><a href="manage-economics.html">Economics</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="cantaloupe">Live</span></dd>
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-			</dl>
-		</div><!--span4-->
-		<div class="span4">
-			<h3><a href="manage-math.html">Mathematics</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="cantaloupe">Live</span></dd>
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-			</dl>
-		</div><!--span4-->
-		<div class="span4">
-			<h3><a href="manage-geog.html">Geography</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="salmon">Disabled</span></dd>
-				<span class="muted">
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-				</span><!--muted-->
-			</dl>
-		</div><!--span4-->
-		<div class="span4">
-			<h3><a href="manage-gp.html">General Paper</a></h3>
-			<dl class="dl-horizontal hidden-phone">
-				<dt>Subject Status:</dt>
-				<dd><span class="cantaloupe">Live</span></dd>
-				<dt>Published Lessons:</dt>
-				<dd>5</dd>
-				<dt>Checkpoints:</dt>
-				<dd>36</dd>
-				<dt>Date of Last Update:</dt>
-				<dd>5 March 2012</dd>
-				<dt>% Completion:</dt>
-				<dd>10</dd>
-			</dl>
-		</div><!--span4-->
+		<div class="span2 aligncenter">
+			<h3 class="aligncenter"><a href="#"><span class="hidden-phone"><i class="icon-ok"></i><br/></span><small>Create</small></a></h3>
+		</div><!--span2-->
+		<div class="span2 aligncenter">
+			<h3 class="aligncenter"><a href="#"><span class="hidden-phone"><i class="icon-save"></i><br/></span><small>Save</small></a></h3>
+		</div><!--span2-->
+		<div class="span2 aligncenter">
+			<h3 class="aligncenter"><a href="#" class="salmon"><span class="hidden-phone"><i class="icon-undo"></i><br/></span><small>Cancel</small></a></h3>
+		</div><!--span2-->
+		<div class="span2 aligncenter">
+			<h3 class="aligncenter"><a href="#" class="salmon"><span class="hidden-phone"><i class="icon-trash"></i><br/></span><small>Delete</small></a></h3>
+		</div><!--span2-->
 	</div><!--row-->
+	</div><!--span8-->
 	</div><!--row-->
 </div><!--container-->
 <div class="container">
@@ -214,5 +151,9 @@
 		</div><!--row-->
 	</footer>
 </div><!--container-->
+<script src="js/head.min.js"></script>
+<script>
+head.js("js/jquery-1.8.0.min.js","js/bootstrap-collapse.js","js/bootstrap-transition.js");
+</script>
 </body>
 </html>
