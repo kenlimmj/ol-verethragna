@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
 <head>
-	<title>Topic | openlectures</title>
+	<title>Delete | openlectures</title>
 	<!-- universal meta -->
 	<meta charset="utf-8">
 	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
@@ -57,7 +57,7 @@
 			<li class="disabled"><a>Email</a></li>
 			<hr>
 			<li><a href="manage-subject.html">Subjects</a></li>
-			<li class="active"><a href="topic.html">Add Topic</a></li>
+			<li><a href="topic.html">Add Topic</a></li>
 			<li><a href="lesson.html">Add Lesson</a></li>
 			<li><a href="checkpoint.html">Add Checkpoint</a></li>
 			<hr>
@@ -68,64 +68,22 @@
 		</ul>
 	</div><!--span3-->
 	<div class="span8 offset1">
-	<h1>New Topic</h1>
-	<p class="lead"><small>in</small> <a href="#">Economics</a> <small><a href="#" class="salmon">(CHANGE)</a></small></p>
+	<h1>Delete</h1>
+	<p class="lead"><a href="manage-lesson.html">Applications of Price Discrimination</a> <small>in</small> <a href="manage-economics">Economics</a></p>
 	<hr>
-	<p>Topics should be created in reference to the corresponding <a href="http://www.seab.gov.sg/aLevel/syllabusSchool_Info.html">SEAB Syllabus</a>.</p>
-	<form class="form-horizontal">
-		<div class="control-group">
-			<label class="control-label" for="title">Topic Title</label>
-			<div class="controls">
-			<input type="text" id="title" placeholder="Title" class="input-xxlarge" value="" required>
-			<span class="help-block">This is the syllabus header in the SEAB document.</span>
-			</div><!--controls-->
-		</div><!--controlgroup-->
-		<div class="control-group">
-			<label class="control-label" for="description">Description</label>
-			<div class="controls">
-			<textarea id="description" class="input-xxlarge" placeholder="Checkpoint Description" rows="5" value="" required></textarea>
-			<span class="help-block">This is the paragraph following the syllabus header. The little fucks in MOE write their life story there. Summarize it for conciseness.</span>
-			</div><!--controls-->
-		</div><!--controlgroup-->
-		<div class="control-group">
-			<label class="control-label" for="subtopic">Subtopics</label>
-			<div class="controls">
-			<textarea id="subtopic" class="input-xxlarge" placeholder="Insert each subtopic on a new row" rows="5" value="" required></textarea>
-			<span class="help-block">Each child-header under "Syllabus Content" is a subtopic.</span>
-			</div><!--controls-->
-		</div><!--controlgroup-->
+	<p>All items created beneath the item being deleted will also be removed. If you are deleting a topic, all lessons and checkpoints encapsulated in that topic will be deleted without further confirmation.
+	<p>Confirm deletion by typing <span class="salmon">"delete"</span> in the box, followed by your password. Click confirm to initiate. This process is not reversible.</p>
+	<form class="aligncenter">
+		<input class="input-xxlarge aligncenter" type="text" pattern="[a-zA]{6,}" placeholder="Type 'delete'" required autofocus> 
+		<input class="input-xxlarge aligncenter" type="password" pattern="[a-zA-Z0-9]{6,}" placeholder="Your Password" required>
 	</form>
-	<hr>
-	<div class="accordion" id="accordion2">
-		<div class="accordion-group">
-			<div class="accordion-heading">
-				<a class="accordion-toggle" data-toggle="collapse" href="#preview">
-				Preview
-				</a>
-			</div><!--accordionheading-->
-			<div id="preview" class="accordion-body collapse">
-				<div class="accordion-inner">
-					<h3>Topic Title</h3>
-					<h6><small>Checkpoint Description</small></h6>
-					<ol>
-						<li>Insert each subtopic on a new row</li>
-					</ol>
-				</div><!--accordioninner-->
-			</div><!--accordionbody-->
-		</div><!--accordiongroup-->
-	</div>
 	<div class="row">
-		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#"><span class="hidden-phone"><i class="icon-ok"></i><br/></span><small>Create</small></a></h3>
+		<div class="span4 aligncenter">
+			<h3 class="aligncenter"><a href="#"><span class="hidden-phone"><i class="icon-ok"></i><br/></span><small>Confirm</small></a></h3>
 		</div><!--span2-->
-		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#"><span class="hidden-phone"><i class="icon-save"></i><br/></span><small>Save</small></a></h3>
+		<div class="span4 aligncenter">
+			<h3 class="aligncenter"><a href="#" class="salmon"><span class="hidden-phone"><i class="icon-remove"></i><br/></span><small>Cancel</small></a></h3>
 		</div><!--span2-->
-		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#" class="salmon"><span class="hidden-phone"><i class="icon-undo"></i><br/></span><small>Cancel</small></a></h3>
-		</div><!--span2-->
-		<div class="span2 aligncenter">
-			<h3 class="aligncenter"><a href="#" class="salmon"><span class="hidden-phone"><i class="icon-trash"></i><br/></span><small>Delete</small></a></h3>
 		</div><!--span2-->
 	</div><!--row-->
 	</div><!--span8-->
