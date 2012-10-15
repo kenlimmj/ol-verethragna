@@ -48,60 +48,39 @@
 	<!-- end CSS -->
 </head>
 <body class="holmes-debug">
-<div class="container">
+	<div class="container">
 	<div class="row">
-	<div class="span1">
-			<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
-	</div><!--span1-->
-	<div class="span11 alignright">
-		<h2><small><a href="start.html">lectures</a></small> About Us</h2>
-	</div><!--span11-->
-	<div class="span12">
-		<ul class="nav nav-pills">
+	<nav class="span3">
+		<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
+		<ul data-spy="affix" class="nav nav-pills nav-stacked hidden-phone" id="nav">
+			<li><a href="profile.html">Lim Mingjie, Kenneth</a></li>
+			<li><a href="subjects.html">Subjects</a></li>
+			<hr>
 			<li><a href="wtf.html">The Team</a></li>
 			<li><a href="opportunities.html">Opportunities</a></li>
 			<li class="active"><a href="partners.html">Partners</a></li>
 			<li><a href="press.html">Press Kit</a></li>
 			<li><a href="contact-us.html">Contact Us</a></li>
-			</ul>
-	</div>
-	</div><!--row-->
-	<div class="row-fluid padtop10 marginbot5p">
-	<div class="span7 prettify">
-		<h1>"If I have seen further it is by standing on ye sholders of Giants."</h1>
-		<p class="lead"><small>-- Sir Isacc Newton, in a <cite title="Source Title">Letter to Robert Hooke</cite>, 15 February 1676</small></p>
-	</div><!--span7-->
-	</div><!--row-->
+			<hr>
+			<li><a href="logout.html">Log Out</a></li>
+		</ul>
+	</nav><!--span3-->
+	<div class="span8 offset1">
+	<ul class="thumbnails">
+		<li class="span8" style="margin-top:-5px;"><a class="thumbnail"><img src="img/partners.jpg"></a></li>
+	</ul><!--thumbnails-->
+	<h1>We bring education to everyone.</h1>
+	<p class="lead">If there's a place for us in your organization's <abbr class="initialism" title="Corporate Social Responsibility">CSR</abbr> programme, or you'd just like to help, <a href='m&#97;&#105;lt&#111;&#58;%6&#56;e&#108;lo%40o%&#55;0&#37;6&#53;n&#108;&#101;c&#116;%&#55;5r&#101;%7&#51;&#46;&#111;rg'>we'd love to hear from you.</a></p>
 	<hr>
-	<div class="row-fluid aligncenter">
-		<div class="span4">
-			<a href="http://www.edb.gov.sg/content/edb/en.html?cmpid=edb_en38" target="_blank">
-			<img src="img/logo/edb.png">
-			<h4 class="margintop10p">EDB Singapore</h4>
-			</a>
-		</div><!--span4-->
-		<div class="span4">
-			<a href="http://www.northeastcdc.org.sg/" target="_blank">
-			<img src="img/logo/necdc.png">
-			<h4 class="margintop10p">Northeast CDC</h4>
-			</a>
-		</div><!--span4-->
-		<div class="span4">
-			<a href="http://www.nyc.pa.gov.sg/" target="_blank">
-			<img src="img/logo/nyc.png">
-			<h4 class="margintop10p">National Youth Council</h4>
-			</a>
-		</div><!--span4-->
+	<p><span class="helvetica"><strong>open</strong>lectures</span> is supported by the following organizations:</p>
+	<ul class="nav nav-pills nav-stacked">
+		<li><a href="http://www.edb.gov.sg/content/edb/en.html?cmpid=edb_en38">EDB Singapore</a></li>
+		<li><a href="http://www.northeastcdc.org.sg/">Northeast CDC</a></li>
+		<li><a href="http://www.nyc.pa.gov.sg/">National Youth Council</a></li>
+		<li><a href="http://www.sgtee.com/">SGTee.com</a></li>
+	</ul>
+	</div><!--span8-->
 	</div><!--row-->
-	<hr>
-	<div class="row">
-		<div class="span6 offset3 aligncenter">
-			<p>We do everything we can to bring quality education to students in Singapore who don't have the means to afford it.</p>
-			<p class="lead">If there's a place for us in your organization's <abbr class="initialism" title="Corporate Social Responsibility">CSR</abbr> programme, or you'd just like to help,<br/><a href='m&#97;&#105;lt&#111;&#58;%6&#56;e&#108;lo%40o%&#55;0&#37;6&#53;n&#108;&#101;c&#116;%&#55;5r&#101;%7&#51;&#46;&#111;rg'>we'd love to hear from you.</a></p>
-		</div><!--span12-->
-	</div><!--row-->
-</div><!--container-->
-<div class="container">
 	<footer>
 		<div class="row">
 			<hr>
@@ -114,9 +93,12 @@
 </body>
 <script src="js/head.min.js"></script>
 <script>
-head.js("js/jquery-1.8.0.min.js","js/jsprettify.min.js");
+head.js("js/jquery-1.8.2.min.js","js/tinynav.min.js","js/bootstrap-affix.js");
 head.ready(function() {
-	window.jsprettify.run();
+	$('section [href^=#]').click(function (e) {
+      e.preventDefault()
+    })
+    $(".nav").tinyNav();
 });
 </script>
 </html>
