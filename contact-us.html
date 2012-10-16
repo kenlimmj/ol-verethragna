@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
 <head>
-	<title>About Us | openlectures</title>
+	<title>Contact Us | openlectures</title>
 	<!-- universal meta -->
 	<meta charset="utf-8">
 	<meta name="description" content="Free, online lectures for anyone who wants to learn - because effort should decide success">
@@ -49,41 +49,39 @@
 </head>
 <body class="holmes-debug">
 <div class="container">
+	<div class="container">
 	<div class="row">
-	<div class="span1">
-			<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
-	</div><!--span1-->
-	<div class="span11 alignright">
-		<h2><small><a href="start.html">lectures</a></small> About Us</h2>
-	</div><!--span11-->
-	<div class="span12">
-		<ul class="nav nav-pills">
+	<nav class="span3">
+		<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
+		<ul data-spy="affix" class="nav nav-pills nav-stacked hidden-phone" id="nav">
+			<li><a href="profile.html">Lim Mingjie, Kenneth</a></li>
+			<li><a href="subjects.html">Subjects</a></li>
+			<hr>
 			<li><a href="wtf.html">The Team</a></li>
 			<li><a href="opportunities.html">Opportunities</a></li>
 			<li><a href="partners.html">Partners</a></li>
 			<li><a href="press.html">Press Kit</a></li>
 			<li class="active"><a href="contact-us.html">Contact Us</a></li>
+			<hr>
+			<li><a href="logout.html">Log Out</a></li>
 		</ul>
-	</div><!--span12-->
-	</div><!--row-->
-	<div class="row-fluid padtop10">
-		<div class="span7">
-			<h1>Location: <a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy" target="_blank">ZZ9 Plural Z Alpha</a></h1>
-			<h2>1.3667° N, 103.7500° E</h2>
-			<dl class="dl-horizontal">
-				<dt>General Enquiries</dt>
-				<dd><a href='&#109;&#97;&#105;lto&#58;he&#108;l&#37;6F&#37;4&#48;&#37;6F%&#55;&#48;enlect%75res&#46;o&#114;g'>hello&#64;&#111;penl&#101;ctures&#46;org</a></dd>
-				<dt>Corporate Services</dt>
-				<dd><a href='mail&#116;&#111;&#58;co%72&#37;70%6Fr&#37;61te&#64;openlec&#116;&#117;&#114;e&#37;&#55;3&#46;o&#114;&#103;'>co&#114;&#112;ora&#116;e&#64;&#111;&#112;enl&#101;c&#116;&#117;res&#46;org</a></dd>
-				<dt>Press and Media</dt>
-				<dd><a href='&#109;ail&#116;&#111;&#58;&#37;73amantha%2Et&#105;%&#54;E%67&#64;o&#112;enlec&#37;74ur&#101;s&#37;2&#69;o%72g'>saman&#116;h&#97;&#46;&#116;ing&#64;o&#112;&#101;n&#108;ectu&#114;e&#115;&#46;org</a></dd>
-				<dt>Twitter</dt>
-				<dd><a href="http://twitter.com/openlecturessg">@openlecturessg</a></dd>
-			</dl>
-		</div><!--span7-->
-		<div class="span5 margintop5p hidden-phone">
-			<h1 style="font-size:20em;"><icon class="icon-globe"></icon></h1>
-		</div><!--span5-->
+	</nav><!--span3-->
+	<div class="span8 offset1">
+	<h1 style="font-size:17em; line-height:0.6;"><i class="icon-globe"></i></h1>
+	<h1>Location: <a href="http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy" target="_blank">ZZ9 Plural Z Alpha</a></h1>
+	<p class="lead">1.3667° N, 103.7500° E</p>
+	<hr>
+	<dl class="dl-horizontal">
+		<dt>General Enquiries</dt>
+		<dd><a href='&#109;&#97;&#105;lto&#58;he&#108;l&#37;6F&#37;4&#48;&#37;6F%&#55;&#48;enlect%75res&#46;o&#114;g'>hello&#64;&#111;penl&#101;ctures&#46;org</a></dd>
+		<dt>Corporate Services</dt>
+		<dd><a href='mail&#116;&#111;&#58;co%72&#37;70%6Fr&#37;61te&#64;openlec&#116;&#117;&#114;e&#37;&#55;3&#46;o&#114;&#103;'>co&#114;&#112;ora&#116;e&#64;&#111;&#112;enl&#101;c&#116;&#117;res&#46;org</a></dd>
+		<dt>Press and Media</dt>
+		<dd><a href='&#109;ail&#116;&#111;&#58;&#37;73amantha%2Et&#105;%&#54;E%67&#64;o&#112;enlec&#37;74ur&#101;s&#37;2&#69;o%72g'>saman&#116;h&#97;&#46;&#116;ing&#64;o&#112;&#101;n&#108;ectu&#114;e&#115;&#46;org</a></dd>
+		<dt>Twitter</dt>
+		<dd><a href="http://twitter.com/openlecturessg">@openlecturessg</a></dd>
+	</dl>
+	</div><!--span8-->
 	</div><!--row-->
 	<footer>
 		<div class="row">
@@ -95,5 +93,23 @@
 	</footer>
 </div><!--container-->
 </body>
-<script src="js/bootstrap-affix.js">
+<script src="js/head.min.js"></script>
+<script>
+head.js("js/jquery-1.8.2.min.js","js/enquire.min.js");
+head.ready(function() {
+    enquire.register("screen and (min-width:768px)", {
+    match: function() {
+    	head.js("js/bootstrap-affix.js");
+	    }
+	});
+    enquire.register("screen and (max-width:767px)", {
+    match: function() {
+		head.js("js/tinynav.min.js");
+	    head.ready(function() {
+	    $(".nav").tinyNav();
+		});
+	}
+	});
+});
+</script>
 </html>
