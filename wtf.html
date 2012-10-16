@@ -296,17 +296,13 @@
 </body>
 <script src="js/head.min.js"></script>
 <script>
-head.js("js/jquery-1.8.2.min.js","js/bootstrap-tooltip.js","js/bootstrap-popover.js","js/tinynav.min.js","js/bootstrap-affix.js");
+head.js("js/jquery-1.8.2.min.js","js/bootstrap-tooltip.js","js/bootstrap-popover.js","js/bootstrap-affix.js");
 head.ready(function() {
 	$("a[rel=popover]")
 		.popover()
 		.click(function(e) {
 		e.preventDefault()
 	})
-	$('section [href^=#]').click(function (e) {
-      e.preventDefault()
-    })
-    $(".nav").tinyNav();
 });
 </script>
 </html>
