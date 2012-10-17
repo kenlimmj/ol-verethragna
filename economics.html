@@ -50,11 +50,13 @@
 </head>
 <body class="holmes-debug">
 <div class="container">
-	<div class="row-fluid">
-	<div class="span3">
-		<div class="aligncenter">
-			<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
-			<ul class="nav nav-pills nav-stacked">
+	<div class="row">
+	<nav class="span3">
+		<h1 class="insignia padbot20" style="font-size:7em;"><a href="index.html" class="clean">ol</a></h1>
+		<ul data-spy="affix" class="nav nav-pills nav-stacked hidden-phone" id="nav">
+			<li><a href="profile.html">Lim Mingjie, Kenneth</a></li>
+			<li class="active"><a href="subjects.html">Subjects</a></li>
+			<hr>
 			<li><a href="#">Biology</a></li>
 			<li><a href="#">Chemistry</a></li>
 			<li class="active"><a href="#">Economics</a></li>
@@ -62,9 +64,10 @@
 			<li><a href="#">Mathematics</a></li>
 			<li><a href="#">Literature</a></li>
 			<li><a href="#">General Paper</a></li>
-			</ul>
-		</div><!--aligncenter-->
-	</div><!--span4-->
+			<hr>
+			<li><a href="logout.html">Log Out</a></li>
+		</ul>
+	</nav><!--span3-->
 	<div class="span8 offset1">
 	<h1>Economics</h1>
 	<ul class="nav nav-pills" id="myTab">
@@ -79,7 +82,7 @@
 			<li>Scarcity, Choice and Opportunity Cost</li>
 			<li>Resource Allocation in Competitive Markets</li>
 			<ul class="unstyled">
-				<li><a href="/pd.html">Price Discrimination</a></li>
+				<li><a href="pd.html">Price Discrimination</a></li>
 			</ul>
 			<li>Firms and How They Operate</li>
 		</ol>
@@ -164,7 +167,7 @@
 </div><!--container-->
 <script src="js/head.min.js"></script>
 <script>
-head.js("js/jquery-1.8.0.min.js","js/bootstrap-tab.js","js/bootstrap-transition.js");
+head.js("js/jquery-1.8.2.min.js","js/bootstrap-tab.js","js/bootstrap-transition.js","js/bootstrap-affix.js");
 </script>
 </body>
 </html>
